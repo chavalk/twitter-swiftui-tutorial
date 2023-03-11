@@ -55,7 +55,6 @@
 				BE03E4BC29BCC75600F1842C /* View */,
 				BE03E4BB29BCC74C00F1842C /* View Models */,
 				BE03E4AD29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift */,
-				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 				BE03E4B129BC1A2800F1842C /* Assets.xcassets */,
 				BE03E4B329BC1A2800F1842C /* Preview Content */,
 			);
@@ -80,6 +79,7 @@
 		BE03E4BC29BCC75600F1842C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
