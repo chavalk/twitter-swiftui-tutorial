@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct SearchView: View {
+    @Binding var text: String
     var body: some View {
-        Text("My search view")
+        HStack {
+            TextField("Search...", text: $text)
+        }
     }
 }
 
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
-        SearchView()
+        SearchView(text: .constant("Search..."))
     }
 }
