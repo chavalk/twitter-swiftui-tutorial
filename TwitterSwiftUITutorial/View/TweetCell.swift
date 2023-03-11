@@ -19,7 +19,7 @@ struct TweetCell: View {
                     .cornerRadius(56 / 2)
                     .padding(.leading)
                 
-                VStack(alignment: .leading) {
+                VStack(alignment: .leading, spacing: 4) {
                     HStack {
                         Text("Bruce Wayne")
                             .font(.system(size: 14, weight: .semibold))
@@ -34,6 +34,8 @@ struct TweetCell: View {
                     Text("It's not who I am underneath, but what I do that defines me.")
                 }
             }
+            .padding(.bottom)
+            .padding(.trailing)
             
             HStack {
                 Button {
