@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserCell: View {
     var body: some View {
-        HStack {
+        HStack(spacing: 12) {
             Image("venom-10")
                 .resizable()
                 .scaledToFill()
