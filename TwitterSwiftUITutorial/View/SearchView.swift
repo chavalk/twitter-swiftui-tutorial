@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SearchView: View {
+    @State var searchText = ""
     var body: some View {
-        Text("Hi")
+        ScrollView {
+            SearchBar(text: $searchText)
+                .padding()
+            
+            VStack {
+                ForEach(0..<19) { _ in
+                    Text("Add users here..")
+                }
+            }
+        }
     }
 }
 
