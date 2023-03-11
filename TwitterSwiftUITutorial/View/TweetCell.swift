@@ -18,6 +18,13 @@ struct TweetCell: View {
                     .frame(width: 56, height: 56)
                     .cornerRadius(56 / 2)
                     .padding(.leading)
+                
+                VStack(alignment: .leading) {
+                    Text("Bruce Wayne")
+                        .font(.system(size: 14, weight: .semibold))
+                    
+                    Text("It's not who I am underneath, but what I do that defines me.")
+                }
             }
         }
     }
