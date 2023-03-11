@@ -15,8 +15,8 @@ struct SearchView: View {
                 .padding()
             
             VStack {
-                ForEach(0..<19) { _ in
-                    Text("Add users here..")
+                ForEach(0..<10) { _ in
+                    UserCell()
                 }
             }
         }
