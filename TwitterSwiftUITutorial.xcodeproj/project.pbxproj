@@ -89,6 +89,7 @@
 		BE03E4BC29BCC75600F1842C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4CA29BD2C0000F1842C /* Messages */,
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 				BE03E4BE29BCC91C00F1842C /* FeedView.swift */,
 				BE03E4C029BCD54100F1842C /* TweetCell.swift */,
@@ -104,6 +105,13 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BE03E4CA29BD2C0000F1842C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
