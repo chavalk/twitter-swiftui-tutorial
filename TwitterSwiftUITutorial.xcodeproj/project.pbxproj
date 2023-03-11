@@ -51,6 +51,9 @@
 		BE03E4AC29BC1A2500F1842C /* TwitterSwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4BD29BCC75900F1842C /* Model */,
+				BE03E4BC29BCC75600F1842C /* View */,
+				BE03E4BB29BCC74C00F1842C /* View Models */,
 				BE03E4AD29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift */,
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 				BE03E4B129BC1A2800F1842C /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				BE03E4B429BC1A2800F1842C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE03E4BB29BCC74C00F1842C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BE03E4BC29BCC75600F1842C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE03E4BD29BCC75900F1842C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
