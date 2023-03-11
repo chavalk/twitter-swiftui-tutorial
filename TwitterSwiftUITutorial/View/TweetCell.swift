@@ -20,8 +20,16 @@ struct TweetCell: View {
                     .padding(.leading)
                 
                 VStack(alignment: .leading) {
-                    Text("Bruce Wayne")
-                        .font(.system(size: 14, weight: .semibold))
+                    HStack {
+                        Text("Bruce Wayne")
+                            .font(.system(size: 14, weight: .semibold))
+                        
+                        Text("@batman •")
+                            .foregroundColor(.gray)
+                        
+                        Text("2w")
+                            .foregroundColor(.gray)
+                    }
                     
                     Text("It's not who I am underneath, but what I do that defines me.")
                 }
