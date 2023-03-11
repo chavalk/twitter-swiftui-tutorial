@@ -14,11 +14,13 @@ struct SearchView: View {
             SearchBar(text: $searchText)
                 .padding()
             
-            VStack {
+            VStack(alignment: .leading) {
                 ForEach(0..<10) { _ in
+                    HStack { Spacer() }
                     UserCell()
                 }
             }
+            .padding(.leading)
         }
     }
 }
