@@ -11,6 +11,7 @@
 		BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4AF29BC1A2500F1842C /* ContentView.swift */; };
 		BE03E4B229BC1A2800F1842C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE03E4B129BC1A2800F1842C /* Assets.xcassets */; };
 		BE03E4B529BC1A2800F1842C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE03E4B429BC1A2800F1842C /* Preview Assets.xcassets */; };
+		BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4BE29BCC91C00F1842C /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE03E4AF29BC1A2500F1842C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE03E4B129BC1A2800F1842C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE03E4B429BC1A2800F1842C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE03E4BE29BCC91C00F1842C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
+				BE03E4BE29BCC91C00F1842C /* FeedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
+				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
