@@ -11,7 +11,13 @@ struct TweetCell: View {
     var body: some View {
         VStack {
             HStack(alignment: .top) {
-                
+                Image("batman")
+                    .resizable()
+                    .scaledToFill()
+                    .clipped()
+                    .frame(width: 56, height: 56)
+                    .cornerRadius(56 / 2)
+                    .padding(.leading)
             }
         }
     }
