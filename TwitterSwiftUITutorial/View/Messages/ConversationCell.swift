@@ -23,7 +23,7 @@ struct ConversationCell: View {
                         .font(.system(size: 14, weight: .semibold))
                     
                     Text("Longer message text to see what happens when I do this.")
-                        .font(.system(size: 14))
+                        .font(.system(size: 15))
                         .lineLimit(2)
                 }
                 .padding(.trailing)
