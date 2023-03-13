@@ -13,7 +13,12 @@ struct ConversationsView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<9) { _ in
-                        ConversationCell()
+                        NavigationLink {
+                            Text("Chat View")
+                        } label: {
+                            ConversationCell()
+                        }
+
                     }
                 }
                 .padding()
