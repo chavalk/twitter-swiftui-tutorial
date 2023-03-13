@@ -37,6 +37,9 @@ struct ConversationsView: View {
             .foregroundColor(.white)
             .clipShape(Circle())
             .padding()
+            .sheet(isPresented: <#T##Binding<Bool>#>) {
+                SearchView()
+            }
         }
     }
 }
