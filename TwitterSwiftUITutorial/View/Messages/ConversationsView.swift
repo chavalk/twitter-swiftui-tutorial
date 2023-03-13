@@ -27,7 +27,7 @@ struct ConversationsView: View {
             }
             
             Button {
-                
+                self.isShowingNewMessageView.toggle()
             } label: {
                 Image(systemName: "envelope")
                     .resizable()
