@@ -27,6 +27,6 @@ struct MessageInputView: View {
 
 struct MessageInputView_Previews: PreviewProvider {
     static var previews: some View {
-        MessageInputView()
+        MessageInputView(messageText: .constant("Message..."))
     }
 }
