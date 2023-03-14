@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChatView: View {
+    @State var messageText: String = ""
     var body: some View {
         VStack {
             ScrollView {
@@ -18,7 +19,7 @@ struct ChatView: View {
                 }
             }
             
-            MessageInputView(messageText: <#T##Binding<String>#>)
+            MessageInputView(messageText: $messageText)
         }
     }
 }
