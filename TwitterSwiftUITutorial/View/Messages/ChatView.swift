@@ -11,7 +11,7 @@ struct ChatView: View {
     var body: some View {
         VStack {
             ScrollView {
-                VStack {
+                VStack(alignment: .leading, spacing: 12) {
                     ForEach(0..<15) { _ in
                         Text("Chat bubble")
                     }
