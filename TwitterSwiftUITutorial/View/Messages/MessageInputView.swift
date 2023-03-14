@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct MessageInputView: View {
+    @Binding var messageText: String
     var body: some View {
         HStack {
-            TextField("message", text: <#T##Binding<String>#>)
+            TextField("message", text: $messageText)
         }
     }
 }
