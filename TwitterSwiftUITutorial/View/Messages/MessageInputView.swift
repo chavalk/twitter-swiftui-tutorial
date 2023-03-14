@@ -12,6 +12,8 @@ struct MessageInputView: View {
     var body: some View {
         HStack {
             TextField("message", text: $messageText)
+                .textFieldStyle(PlainTextFieldStyle())
+                .frame(minHeight: 30)
         }
     }
 }
