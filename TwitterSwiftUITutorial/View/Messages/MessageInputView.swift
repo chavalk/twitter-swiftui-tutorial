@@ -14,6 +14,13 @@ struct MessageInputView: View {
             TextField("message", text: $messageText)
                 .textFieldStyle(PlainTextFieldStyle())
                 .frame(minHeight: 30)
+            
+            Button {
+                
+            } label: {
+                Text("Send")
+            }
+
         }
     }
 }
