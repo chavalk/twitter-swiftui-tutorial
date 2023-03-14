@@ -19,6 +19,7 @@
 		BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */; };
 		BE03E4CE29BD2D7D00F1842C /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */; };
 		BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CF29C11B3300F1842C /* MessageInputView.swift */; };
+		BE03E4D229C1220200F1842C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D129C1220200F1842C /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
 		BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		BE03E4CF29C11B3300F1842C /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		BE03E4D129C1220200F1842C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */,
 				BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */,
 				BE03E4CF29C11B3300F1842C /* MessageInputView.swift */,
+				BE03E4D129C1220200F1842C /* ChatView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
+				BE03E4D229C1220200F1842C /* ChatView.swift in Sources */,
 				BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */,
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
