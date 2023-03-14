@@ -18,6 +18,7 @@
 		BE03E4C929BCFE9000F1842C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4C829BCFE9000F1842C /* UserCell.swift */; };
 		BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */; };
 		BE03E4CE29BD2D7D00F1842C /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */; };
+		BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CF29C11B3300F1842C /* MessageInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BE03E4C829BCFE9000F1842C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
 		BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		BE03E4CF29C11B3300F1842C /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				BE03E4CB29BD2C4C00F1842C /* ConversationsView.swift */,
 				BE03E4CD29BD2D7D00F1842C /* ConversationCell.swift */,
+				BE03E4CF29C11B3300F1842C /* MessageInputView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE03E4C329BCEE0400F1842C /* SearchView.swift in Sources */,
+				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
 				BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */,
