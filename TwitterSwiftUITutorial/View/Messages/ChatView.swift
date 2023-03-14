@@ -17,6 +17,8 @@ struct ChatView: View {
                     }
                 }
             }
+            
+            MessageInputView(messageText: <#T##Binding<String>#>)
         }
     }
 }
