@@ -20,6 +20,6 @@ struct ChatBubble: Shape {
 
 struct ChatBubble_Previews: PreviewProvider {
     static var previews: some View {
-        ChatBubble()
+        ChatBubble(isFromCurrentUser: false)
     }
 }
