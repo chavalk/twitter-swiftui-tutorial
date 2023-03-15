@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct ChatBubble: View {
+struct ChatBubble: Shape {
+    func path(in rect: CGRect) -> Path {
+        <#code#>
+    }
+    
     var isFromCurrentUser: Bool
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
