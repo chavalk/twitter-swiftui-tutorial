@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChatBubble: View {
+    var isFromCurrentUser: Bool
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
