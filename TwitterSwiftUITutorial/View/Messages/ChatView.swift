@@ -13,10 +13,10 @@ struct ChatView: View {
         VStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
-                    ForEach(0..<15) { _ in
+                    ForEach(MOCK_MESSAGES) { message in
                         HStack {
                             Spacer()
-                            Text("Test message text")
+                            Text(message.messageText)
                                 .padding()
                                 .background(Color.blue)
                                 .clipShape(ChatBubble(isFromCurrentUser: true))
