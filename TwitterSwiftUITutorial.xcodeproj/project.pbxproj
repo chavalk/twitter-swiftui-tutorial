@@ -21,6 +21,7 @@
 		BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4CF29C11B3300F1842C /* MessageInputView.swift */; };
 		BE03E4D229C1220200F1842C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D129C1220200F1842C /* ChatView.swift */; };
 		BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D329C1555000F1842C /* ChatBubble.swift */; };
+		BE03E4D629C2773000F1842C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D529C2773000F1842C /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		BE03E4CF29C11B3300F1842C /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		BE03E4D129C1220200F1842C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		BE03E4D329C1555000F1842C /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		BE03E4D529C2773000F1842C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		BE03E4BD29BCC75900F1842C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4D529C2773000F1842C /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
+				BE03E4D629C2773000F1842C /* Message.swift in Sources */,
 				BE03E4C729BCFB4300F1842C /* SearchBar.swift in Sources */,
 				BE03E4C929BCFE9000F1842C /* UserCell.swift in Sources */,
 				BE03E4CE29BD2D7D00F1842C /* ConversationCell.swift in Sources */,
