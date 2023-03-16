@@ -24,7 +24,7 @@ struct ChatView: View {
                                     .foregroundColor(.white)
                                     .padding(.horizontal)
                             } else {
-                                HStack {
+                                HStack(alignment: .bottom) {
                                     Image(message.imageName)
                                         .resizable()
                                         .scaledToFill()
