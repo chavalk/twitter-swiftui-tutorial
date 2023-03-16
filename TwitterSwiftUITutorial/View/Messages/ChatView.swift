@@ -36,10 +36,9 @@ struct ChatView: View {
                                         .background(Color(.systemGray5))
                                         .clipShape(ChatBubble(isFromCurrentUser: false))
                                         .foregroundColor(.black)
-                                        .padding(.horizontal)
-                                    
-                                    Spacer()
                                 }
+                                .padding(.horizontal)
+                                Spacer()
                             }
                         }
                     }
