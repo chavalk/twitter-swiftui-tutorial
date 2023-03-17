@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ConversationsView: View {
     @State var isShowingNewMessageView = false
+    @State var showChat = false
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
@@ -40,7 +41,7 @@ struct ConversationsView: View {
             .clipShape(Circle())
             .padding()
             .sheet(isPresented: $isShowingNewMessageView) {
-                NewMessageView(show: $isShowingNewMessageView, startChat: <#T##Binding<Bool>#>)
+                NewMessageView(show: $isShowingNewMessageView, startChat: $showChat)
             }
         }
     }
