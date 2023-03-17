@@ -9,6 +9,8 @@ import SwiftUI
 
 struct NewMessageView: View {
     @State var searchText = ""
+    @Binding var show: Bool
+    @Binding var startChat: Bool
     
     var body: some View {
         ScrollView {
@@ -28,6 +30,6 @@ struct NewMessageView: View {
 
 struct NewMessageView_Previews: PreviewProvider {
     static var previews: some View {
-        NewMessageView()
+        NewMessageView(show: .constant(true), startChat: .constant(true))
     }
 }
