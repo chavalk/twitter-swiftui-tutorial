@@ -40,7 +40,7 @@ struct ConversationsView: View {
             .clipShape(Circle())
             .padding()
             .sheet(isPresented: $isShowingNewMessageView) {
-                SearchView()
+                NewMessageView(show: $isShowingNewMessageView, startChat: <#T##Binding<Bool>#>)
             }
         }
     }
