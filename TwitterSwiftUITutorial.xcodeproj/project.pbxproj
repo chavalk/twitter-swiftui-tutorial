@@ -24,6 +24,7 @@
 		BE03E4D629C2773000F1842C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D529C2773000F1842C /* Message.swift */; };
 		BE03E4D829C2C16D00F1842C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D729C2C16D00F1842C /* MessageView.swift */; };
 		BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4D929C416E600F1842C /* NewMessageView.swift */; };
+		BE03E4DD29C509AC00F1842C /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4DC29C509AC00F1842C /* UserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BE03E4D529C2773000F1842C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		BE03E4D729C2C16D00F1842C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		BE03E4D929C416E600F1842C /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		BE03E4DC29C509AC00F1842C /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		BE03E4BC29BCC75600F1842C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4DB29C5097F00F1842C /* Profile */,
 				BE03E4CA29BD2C0000F1842C /* Messages */,
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 				BE03E4BE29BCC91C00F1842C /* FeedView.swift */,
@@ -136,6 +139,14 @@
 				BE03E4D929C416E600F1842C /* NewMessageView.swift */,
 			);
 			path = Messages;
+			sourceTree = "<group>";
+		};
+		BE03E4DB29C5097F00F1842C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BE03E4DC29C509AC00F1842C /* UserProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
 				BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */,
 				BE03E4D629C2773000F1842C /* Message.swift in Sources */,
+				BE03E4DD29C509AC00F1842C /* UserProfileView.swift in Sources */,
 				BE03E4C729BCFB4300F1842C /* SearchBar.swift in Sources */,
 				BE03E4C929BCFE9000F1842C /* UserCell.swift in Sources */,
 				BE03E4D829C2C16D00F1842C /* MessageView.swift in Sources */,
