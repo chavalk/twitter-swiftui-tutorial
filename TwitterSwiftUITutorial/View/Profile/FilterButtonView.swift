@@ -28,9 +28,13 @@ struct FilterButtonView: View {
         VStack(alignment: .leading) {
             HStack {
                 ForEach(TweetFilterOptions.allCases, id: \.self) { option in
-                    Text(option.title)
-                        .frame(width: underlineWidth)
-                        .foregroundColor(.blue)
+                    Button {
+                        
+                    } label: {
+                        Text(option.title)
+                            .frame(width: underlineWidth)
+                    }
+
                 }
             }
             
