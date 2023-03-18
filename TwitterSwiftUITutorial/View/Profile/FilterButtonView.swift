@@ -50,6 +50,6 @@ struct FilterButtonView: View {
 
 struct FilterButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        FilterButtonView()
+        FilterButtonView(selectedOption: .constant(.tweets))
     }
 }
