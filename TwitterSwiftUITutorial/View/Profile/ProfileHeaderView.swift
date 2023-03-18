@@ -52,6 +52,8 @@ struct ProfileHeaderView: View {
                 }
             }
             .padding()
+            
+            Spacer()
         }
     }
 }
