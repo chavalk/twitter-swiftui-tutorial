@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ProfileHeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("batman")
+                .resizable()
+                .scaledToFill()
+                .clipped()
+                .frame(width: 120, height: 120)
+                .cornerRadius(120 / 2)
+                .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
+        }
     }
 }
 
