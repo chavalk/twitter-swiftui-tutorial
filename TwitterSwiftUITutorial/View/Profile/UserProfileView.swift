@@ -14,6 +14,8 @@ struct UserProfileView: View {
                 ProfileHeaderView()
                     .padding()
             }
+            
+            .navigationTitle("batman")
         }
     }
 }
