@@ -29,6 +29,11 @@ struct FilterButtonView: View {
                     Text(option.title)
                 }
             }
+            
+            Rectangle()
+                .frame(width: 300, height: 3)
+                .foregroundColor(.blue)
+                .animation(.spring())
         }
     }
 }
