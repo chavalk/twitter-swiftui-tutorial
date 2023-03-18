@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProfileActionButtonView: View {
+    let isCurrentUser: Bool
+    
     var body: some View {
         Button {
             
@@ -23,6 +25,6 @@ struct ProfileActionButtonView: View {
 
 struct ProfileActionButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileActionButtonView()
+        ProfileActionButtonView(isCurrentUser: false)
     }
 }
