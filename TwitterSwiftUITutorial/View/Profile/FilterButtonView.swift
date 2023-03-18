@@ -29,6 +29,7 @@ struct FilterButtonView: View {
             HStack {
                 ForEach(TweetFilterOptions.allCases, id: \.self) { option in
                     Text(option.title)
+                        .frame(width: underlineWidth)
                 }
             }
             
