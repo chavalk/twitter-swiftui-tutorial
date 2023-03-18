@@ -20,12 +20,14 @@ struct ProfileHeaderView: View {
             
             Text("Bruce Wayne")
                 .font(.system(size: 16, weight: .semibold))
+                .padding(.top, 8)
             
             Text("@batman")
                 .font(.subheadline)
                 .foregroundColor(.gray)
             
             Text("Billionaire by day, dark knight by night")
+                .font(.system(size: 14))
                 .padding(.top, 8)
         }
     }
