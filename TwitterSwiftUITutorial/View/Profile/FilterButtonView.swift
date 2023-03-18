@@ -22,6 +22,8 @@ enum TweetFilterOptions: Int, CaseIterable {
 }
 
 struct FilterButtonView: View {
+    private let underlineWidth = UIScreen.main.bounds.width / CGFloat(TweetFilterOptions.allCases.count)
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -31,7 +33,7 @@ struct FilterButtonView: View {
             }
             
             Rectangle()
-                .frame(width: 300, height: 3)
+                .frame(width: underlineWidth, height: 3)
                 .foregroundColor(.blue)
                 .animation(.spring())
         }
