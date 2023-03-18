@@ -29,6 +29,29 @@ struct ProfileHeaderView: View {
             Text("Billionaire by day, dark knight by night")
                 .font(.system(size: 14))
                 .padding(.top, 8)
+            
+            HStack(spacing: 40) {
+                VStack{
+                    Text("12")
+                        .font(.system(size: 16))
+                        .bold()
+                    
+                    Text("Followers")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                }
+                
+                VStack {
+                    Text("12")
+                        .font(.system(size: 16))
+                        .bold()
+                    
+                    Text("Followers")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                }
+            }
+            .padding()
         }
     }
 }
