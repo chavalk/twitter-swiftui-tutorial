@@ -30,6 +30,7 @@ struct FilterButtonView: View {
                 ForEach(TweetFilterOptions.allCases, id: \.self) { option in
                     Text(option.title)
                         .frame(width: underlineWidth)
+                        .foregroundColor(.blue)
                 }
             }
             
