@@ -12,6 +12,7 @@ struct UserProfileView: View {
         ScrollView {
             VStack {
                 ProfileHeaderView()
+                    .padding()
             }
         }
     }
