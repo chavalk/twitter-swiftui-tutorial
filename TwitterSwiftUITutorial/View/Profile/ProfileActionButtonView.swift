@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ProfileActionButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            
+        } label: {
+            Text("Edit Profile")
+                .frame(width: 360, height: 40)
+                .background(Color.blue)
+                .foregroundColor(.white)
+        }
+        .cornerRadius(20)
     }
 }
 
