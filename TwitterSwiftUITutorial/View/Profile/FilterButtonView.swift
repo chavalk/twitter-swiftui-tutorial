@@ -25,7 +25,9 @@ struct FilterButtonView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                
+                ForEach(TweetFilterOptions.allCases, id: \.self) { option in
+                    Text(option.title)
+                }
             }
         }
     }
