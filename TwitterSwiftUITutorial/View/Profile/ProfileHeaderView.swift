@@ -17,6 +17,16 @@ struct ProfileHeaderView: View {
                 .frame(width: 120, height: 120)
                 .cornerRadius(120 / 2)
                 .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
+            
+            Text("Bruce Wayne")
+                .font(.system(size: 16, weight: .semibold))
+            
+            Text("@batman")
+                .font(.subheadline)
+                .foregroundColor(.gray)
+            
+            Text("Billionaire by day, dark knight by night")
+                .padding(.top, 8)
         }
     }
 }
