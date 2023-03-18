@@ -22,6 +22,8 @@ enum TweetFilterOptions: Int, CaseIterable {
 }
 
 struct FilterButtonView: View {
+    @Binding var selectedOption: TweetFilterOptions
+    
     private let underlineWidth = UIScreen.main.bounds.width / CGFloat(TweetFilterOptions.allCases.count)
     
     var body: some View {
