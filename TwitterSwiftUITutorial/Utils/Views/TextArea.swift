@@ -11,8 +11,12 @@ struct TextArea: View {
     @Binding var text: String
     let placeholder: String
     
+    init() {
+        UITextView.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             if text.isEmpty {
                 Text(placeholder)
                     .foregroundColor(Color(.placeholderText))
