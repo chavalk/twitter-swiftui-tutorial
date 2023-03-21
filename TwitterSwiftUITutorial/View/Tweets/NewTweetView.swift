@@ -9,7 +9,16 @@ import SwiftUI
 
 struct NewTweetView: View {
     var body: some View {
-        Text("New Tweet View")
+        NavigationView {
+            HStack {
+                Image("batman")
+                    .resizable()
+                    .scaledToFill()
+                    .clipped()
+                    .frame(width: 64, height: 64)
+                    .cornerRadius(32)
+            }
+        }
     }
 }
 
