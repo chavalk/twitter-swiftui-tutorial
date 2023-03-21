@@ -10,35 +10,38 @@ import SwiftUI
 struct NewTweetView: View {
     var body: some View {
         NavigationView {
-            HStack {
-                Image("batman")
-                    .resizable()
-                    .scaledToFill()
-                    .clipped()
-                    .frame(width: 64, height: 64)
-                    .cornerRadius(32)
-                
-                Text("What's happening?")
-                    .foregroundColor(.gray)
-                
+            VStack {
+                HStack {
+                    Image("batman")
+                        .resizable()
+                        .scaledToFill()
+                        .clipped()
+                        .frame(width: 64, height: 64)
+                        .cornerRadius(32)
+                    
+                    Text("What's happening?")
+                        .foregroundColor(.gray)
+                    
+                    Spacer()
+                }
+                .padding()
+                .navigationBarItems(leading: Button(action: {
+                    
+                }, label: {
+                    Text("Cancel")
+                        .foregroundColor(.blue)
+                }), trailing: Button(action: {
+                    
+                }, label: {
+                    Text("Tweet")
+                        .padding(.horizontal)
+                        .padding(.vertical, 8)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .clipShape(Capsule())
+            }))
                 Spacer()
             }
-            .padding()
-            .navigationBarItems(leading: Button(action: {
-                
-            }, label: {
-                Text("Cancel")
-                    .foregroundColor(.blue)
-            }), trailing: Button(action: {
-                
-            }, label: {
-                Text("Tweet")
-                    .padding(.horizontal)
-                    .padding(.vertical, 8)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .clipShape(Capsule())
-            }))
         }
     }
 }
