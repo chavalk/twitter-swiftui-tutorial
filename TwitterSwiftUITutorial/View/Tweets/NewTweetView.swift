@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct NewTweetView: View {
+    @Binding var isPresented: Bool
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -26,7 +28,7 @@ struct NewTweetView: View {
                 }
                 .padding()
                 .navigationBarItems(leading: Button(action: {
-                    
+                    isPresented.toggle()
                 }, label: {
                     Text("Cancel")
                         .foregroundColor(.blue)
@@ -48,6 +50,6 @@ struct NewTweetView: View {
 
 struct NewTweetView_Previews: PreviewProvider {
     static var previews: some View {
-        NewTweetView()
+        NewTweetView(isPresented: .constant(true))
     }
 }
