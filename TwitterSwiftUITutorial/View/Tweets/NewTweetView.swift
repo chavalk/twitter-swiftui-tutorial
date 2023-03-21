@@ -22,7 +22,7 @@ struct NewTweetView: View {
                         .frame(width: 64, height: 64)
                         .cornerRadius(32)
                     
-                    TextArea(text: $captionText, placeholder: "What's happening?")
+                    TextArea("What's happening?", text: $captionText)
                     
                     Spacer()
                 }
