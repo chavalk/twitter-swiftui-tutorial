@@ -47,7 +47,7 @@ struct FilterButtonView: View {
             }
             
             Rectangle()
-                .frame(width: underlineWidth, height: 3)
+                .frame(width: underlineWidth - 32, height: 3, alignment: .center)
                 .foregroundColor(.blue)
                 .padding(.leading, padding)
                 .animation(.spring())
