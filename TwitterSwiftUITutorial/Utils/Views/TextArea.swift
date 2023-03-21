@@ -12,12 +12,23 @@ struct TextArea: View {
     let placeholder: String
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            if text.isEmpty {
+                Text(placeholder)
+                    .foregroundColor(Color(.placeholderText))
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 12)
+            }
+            
+            TextEditor(text: $text)
+                .padding(4)
+        }
+        .font(.body)
     }
 }
 
 struct TextArea_Previews: PreviewProvider {
     static var previews: some View {
-        TextArea()
+        TextArea(text: .constant(""), placeholder: "Caption here...")
     }
 }
