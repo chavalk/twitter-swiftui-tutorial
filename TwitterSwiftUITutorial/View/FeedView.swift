@@ -22,7 +22,7 @@ struct FeedView: View {
             }
             
             Button {
-                
+                isShowingNewTweetView.toggle()
             } label: {
                 Image("tweet")
                     .resizable()
