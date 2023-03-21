@@ -9,7 +9,15 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("twitter-logo")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 220, height: 100)
+                .padding(.top, 44)
+            
+            Spacer()
+        }
     }
 }
 
