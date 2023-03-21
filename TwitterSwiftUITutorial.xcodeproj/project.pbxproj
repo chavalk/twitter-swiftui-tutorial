@@ -29,6 +29,7 @@
 		BE03E4E129C5452900F1842C /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4E029C5452900F1842C /* ProfileActionButtonView.swift */; };
 		BE03E4E329C5457D00F1842C /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4E229C5457D00F1842C /* FilterButtonView.swift */; };
 		BE03E4E629CA3E6F00F1842C /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4E529CA3E6F00F1842C /* NewTweetView.swift */; };
+		BE03E4EA29CA543800F1842C /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4E929CA543800F1842C /* TextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		BE03E4E029C5452900F1842C /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		BE03E4E229C5457D00F1842C /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		BE03E4E529CA3E6F00F1842C /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		BE03E4E929CA543800F1842C /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		BE03E4AC29BC1A2500F1842C /* TwitterSwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4E729CA541500F1842C /* Utils */,
 				BE03E4BD29BCC75900F1842C /* Model */,
 				BE03E4BC29BCC75600F1842C /* View */,
 				BE03E4BB29BCC74C00F1842C /* View Models */,
@@ -169,6 +172,22 @@
 			path = Tweets;
 			sourceTree = "<group>";
 		};
+		BE03E4E729CA541500F1842C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BE03E4E829CA542300F1842C /* Views */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE03E4E829CA542300F1842C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE03E4E929CA543800F1842C /* TextArea.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE03E4C329BCEE0400F1842C /* SearchView.swift in Sources */,
+				BE03E4EA29CA543800F1842C /* TextArea.swift in Sources */,
 				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
