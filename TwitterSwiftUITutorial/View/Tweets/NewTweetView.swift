@@ -17,7 +17,13 @@ struct NewTweetView: View {
                     .clipped()
                     .frame(width: 64, height: 64)
                     .cornerRadius(32)
+                
+                Text("What's happening?")
+                    .foregroundColor(.gray)
+                
+                Spacer()
             }
+            .padding()
         }
     }
 }
