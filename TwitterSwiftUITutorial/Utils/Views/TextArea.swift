@@ -11,7 +11,9 @@ struct TextArea: View {
     @Binding var text: String
     let placeholder: String
     
-    init() {
+    init(_ placeholder: String, text: Binding<String>) {
+        self._text = text
+        self.placeholder = placeholder
         UITextView.appearance().backgroundColor = .clear
     }
     
