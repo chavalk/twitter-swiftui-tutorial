@@ -40,7 +40,7 @@ struct FilterButtonView: View {
                         self.selectedOption = option
                     } label: {
                         Text(option.title)
-                            .frame(width: underlineWidth)
+                            .frame(width: underlineWidth - 8)
                     }
 
                 }
