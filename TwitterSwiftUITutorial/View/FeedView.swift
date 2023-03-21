@@ -34,7 +34,7 @@ struct FeedView: View {
             .foregroundColor(.white)
             .clipShape(Circle())
             .padding()
-            .sheet(isPresented: $isShowingNewTweetView) {
+            .fullScreenCover(isPresented: $isShowingNewTweetView) {
                 NewTweetView()
             }
         }
