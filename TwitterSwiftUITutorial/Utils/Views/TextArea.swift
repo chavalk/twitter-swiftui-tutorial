@@ -31,8 +31,8 @@ struct TextArea: View {
     }
 }
 
-struct TextArea_Previews: PreviewProvider {
-    static var previews: some View {
-        TextArea(text: .constant(""), placeholder: "Caption here...")
-    }
-}
+//struct TextArea_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TextArea(text: .constant(""), placeholder: "Caption here...")
+//    }
+//}
