@@ -24,6 +24,21 @@ struct NewTweetView: View {
                 Spacer()
             }
             .padding()
+            .navigationBarItems(leading: Button(action: {
+                
+            }, label: {
+                Text("Cancel")
+                    .foregroundColor(.blue)
+            }), trailing: Button(action: {
+                
+            }, label: {
+                Text("Tweet")
+                    .padding(.horizontal)
+                    .padding(.vertical, 8)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .clipShape(Capsule())
+            }))
         }
     }
 }
