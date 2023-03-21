@@ -28,6 +28,7 @@ struct TextArea: View {
             
             TextEditor(text: $text)
                 .padding(4)
+                .opacity(text.isEmpty ? 0.25 : 1)
         }
         .font(.body)
     }
