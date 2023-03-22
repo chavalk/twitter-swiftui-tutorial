@@ -10,6 +10,7 @@ import SwiftUI
 struct RegistrationView: View {
     @State var email = ""
     @State var password = ""
+    @State var fullName = ""
     
     var body: some View {
         ZStack {
@@ -23,6 +24,12 @@ struct RegistrationView: View {
                 
                 VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                    
+                    CustomTextField(text: $fullName, placeholder: Text("Full Name"), imageName: "person")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
