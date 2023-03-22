@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State var email = ""
+    @State var password = ""
+    
     var body: some View {
         ZStack {
             VStack {
