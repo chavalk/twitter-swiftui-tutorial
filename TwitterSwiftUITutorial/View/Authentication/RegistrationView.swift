@@ -36,21 +36,6 @@ struct RegistrationView: View {
                 }
                 .padding(.horizontal, 32)
                 
-                HStack {
-                    Spacer()
-                    
-                    Button {
-                        
-                    } label: {
-                        Text("Forgot password?")
-                            .font(.footnote)
-                            .bold()
-                            .foregroundColor(.white)
-                            .padding(.top, 16)
-                            .padding(.trailing, 32)
-                    }
-                }
-                
                 Button {
                     
                 } label: {
