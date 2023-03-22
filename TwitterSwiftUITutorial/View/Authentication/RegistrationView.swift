@@ -51,10 +51,10 @@ struct RegistrationView: View {
                 Spacer()
                 
                 HStack {
-                    Text("Don't have an account?")
+                    Text("Already have an account?")
                         .font(.system(size: 14))
                     
-                    Text("Sign Up")
+                    Text("Sign In")
                         .font(.system(size: 14, weight: .semibold))
                 }
                 .foregroundColor(.white)
