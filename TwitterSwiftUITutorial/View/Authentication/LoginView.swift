@@ -17,6 +17,10 @@ struct LoginView: View {
                     .frame(width: 220, height: 100)
                     .padding(.top, 88)
                 
+                VStack {
+                    CustomTextField(text: <#T##Binding<String>#>, placeholder: <#T##Text#>)
+                }
+                
                 Spacer()
             }
         }
