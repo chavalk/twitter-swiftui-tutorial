@@ -12,7 +12,13 @@ struct CustomTextField: View {
     let placeholder: Text
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .leading) {
+            if text.isEmpty {
+                placeholder
+                    .foregroundColor(Color(.init(white: 1, alpha: 0.87)))
+                    .padding(.leading, 40)
+            }
+        }
     }
 }
 
