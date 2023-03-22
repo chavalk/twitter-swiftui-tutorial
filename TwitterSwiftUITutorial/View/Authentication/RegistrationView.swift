@@ -11,6 +11,7 @@ struct RegistrationView: View {
     @State var email = ""
     @State var password = ""
     @State var fullName = ""
+    @State var username = ""
     
     var body: some View {
         ZStack {
@@ -30,6 +31,12 @@ struct RegistrationView: View {
                         .foregroundColor(.white)
                     
                     CustomTextField(text: $fullName, placeholder: Text("Full Name"), imageName: "person")
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                    
+                    CustomTextField(text: $username, placeholder: Text("Username"), imageName: "person")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
