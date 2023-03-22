@@ -79,7 +79,6 @@ struct RegistrationView: View {
         .background(Color(red: 0.113, green: 0.632, blue: 0.954))
         .ignoresSafeArea()
     }
-    }
 }
 
 struct RegistrationView_Previews: PreviewProvider {
