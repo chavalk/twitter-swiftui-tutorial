@@ -18,6 +18,15 @@ struct CustomTextField: View {
                     .foregroundColor(Color(.init(white: 1, alpha: 0.87)))
                     .padding(.leading, 40)
             }
+            
+            HStack(spacing: 16) {
+                Image(systemName: "envelope")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20, height: 20)
+                
+                TextField("", text: $text)
+            }
         }
     }
 }
