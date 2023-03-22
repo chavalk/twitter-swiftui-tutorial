@@ -49,8 +49,20 @@ struct LoginView: View {
                             .padding(.top, 16)
                             .padding(.trailing, 32)
                     }
-
                 }
+                
+                Button {
+                    
+                } label: {
+                    Text("Sign In")
+                        .font(.headline)
+                        .foregroundColor(.blue)
+                        .frame(width: 360, height: 50)
+                        .background(Color.white)
+                        .clipShape(Capsule())
+                        .padding()
+                }
+
                 
                 Spacer()
             }
