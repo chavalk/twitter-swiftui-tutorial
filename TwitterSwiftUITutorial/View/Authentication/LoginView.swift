@@ -19,13 +19,14 @@ struct LoginView: View {
                     .scaledToFill()
                     .frame(width: 220, height: 100)
                     .padding(.top, 88)
+                    .padding(.bottom)
                 
                 VStack {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
-                        .padding()
+                        .padding(.horizontal)
                         .foregroundColor(.white)
                     
                     CustomSecureField(text: $password, placeholder: Text("Password"))
