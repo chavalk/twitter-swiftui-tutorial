@@ -24,6 +24,7 @@ struct CustomTextField: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
+                    .foregroundColor(.white)
                 
                 TextField("", text: $text)
             }
