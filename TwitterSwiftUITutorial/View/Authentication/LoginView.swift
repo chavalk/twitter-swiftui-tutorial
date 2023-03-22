@@ -63,8 +63,17 @@ struct LoginView: View {
                         .padding()
                 }
 
-                
                 Spacer()
+                
+                HStack {
+                    Text("Don't have an account?")
+                        .font(.system(size: 14))
+                    
+                    Text("Sign Up")
+                        .font(.system(size: 14, weight: .semibold))
+                }
+                .foregroundColor(.white)
+                .padding(.bottom, 40)
             }
         }
         .background(Color(red: 0.113, green: 0.632, blue: 0.954))
