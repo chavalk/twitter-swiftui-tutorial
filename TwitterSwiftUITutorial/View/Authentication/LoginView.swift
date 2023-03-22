@@ -9,15 +9,19 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        VStack {
-            Image("twitter-logo")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 220, height: 100)
-                .padding(.top, 44)
-            
-            Spacer()
+        ZStack {
+            VStack {
+                Image("twitter-logo")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 220, height: 100)
+                    .padding(.top, 88)
+                
+                Spacer()
+            }
         }
+        .background(Color(red: 0.113, green: 0.632, blue: 0.954))
+        .ignoresSafeArea()
     }
 }
 
