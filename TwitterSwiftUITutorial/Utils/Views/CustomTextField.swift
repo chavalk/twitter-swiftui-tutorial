@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomTextField: View {
     @Binding var text: String
-    let placeholder: String
+    let placeholder: Text
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -18,6 +18,6 @@ struct CustomTextField: View {
 
 struct CustomTextField_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTextField(text: .constant(""), placeholder: "Email")
+        CustomTextField(text: .constant(""), placeholder: Text("Email"))
     }
 }
