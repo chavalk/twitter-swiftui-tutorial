@@ -21,7 +21,7 @@ struct LoginView: View {
                     .padding(.top, 88)
                 
                 VStack {
-                    CustomTextField(text: <#T##Binding<String>#>, placeholder: <#T##Text#>)
+                    CustomTextField(text: $email, placeholder: Text("Email"))
                 }
                 
                 Spacer()
