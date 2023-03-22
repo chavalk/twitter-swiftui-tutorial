@@ -19,7 +19,7 @@ struct LoginView: View {
                     .scaledToFill()
                     .frame(width: 220, height: 100)
                     .padding(.top, 88)
-                    .padding(.bottom)
+                    .padding(.bottom, 32)
                 
                 VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
