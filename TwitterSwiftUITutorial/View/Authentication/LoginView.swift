@@ -22,6 +22,11 @@ struct LoginView: View {
                 
                 VStack {
                     CustomTextField(text: $email, placeholder: Text("Email"))
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .padding()
+                        .foregroundColor(.white)
                 }
                 
                 Spacer()
