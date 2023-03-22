@@ -39,7 +39,7 @@ struct RegistrationView: View {
                 Button {
                     
                 } label: {
-                    Text("Sign In")
+                    Text("Sign Up")
                         .font(.headline)
                         .foregroundColor(.blue)
                         .frame(width: 360, height: 50)
