@@ -21,21 +21,20 @@ struct LoginView: View {
                     .padding(.top, 88)
                     .padding(.bottom)
                 
-                VStack {
+                VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
-                        .padding(.horizontal)
                         .foregroundColor(.white)
                     
                     CustomSecureField(text: $password, placeholder: Text("Password"))
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
-                        .padding()
                         .foregroundColor(.white)
                 }
+                .padding(.horizontal, 32)
                 
                 Spacer()
             }
