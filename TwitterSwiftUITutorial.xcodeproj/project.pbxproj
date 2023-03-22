@@ -32,6 +32,7 @@
 		BE03E4EA29CA543800F1842C /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4E929CA543800F1842C /* TextArea.swift */; };
 		BE03E4ED29CA725400F1842C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4EC29CA725400F1842C /* LoginView.swift */; };
 		BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4EE29CA726500F1842C /* RegistrationView.swift */; };
+		BE03E4F129CA86F900F1842C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4F029CA86F900F1842C /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		BE03E4E929CA543800F1842C /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		BE03E4EC29CA725400F1842C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BE03E4EE29CA726500F1842C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		BE03E4F029CA86F900F1842C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4E929CA543800F1842C /* TextArea.swift */,
+				BE03E4F029CA86F900F1842C /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				BE03E4DD29C509AC00F1842C /* UserProfileView.swift in Sources */,
 				BE03E4C729BCFB4300F1842C /* SearchBar.swift in Sources */,
 				BE03E4E129C5452900F1842C /* ProfileActionButtonView.swift in Sources */,
+				BE03E4F129CA86F900F1842C /* CustomTextField.swift in Sources */,
 				BE03E4C929BCFE9000F1842C /* UserCell.swift in Sources */,
 				BE03E4D829C2C16D00F1842C /* MessageView.swift in Sources */,
 				BE03E4CE29BD2D7D00F1842C /* ConversationCell.swift in Sources */,
