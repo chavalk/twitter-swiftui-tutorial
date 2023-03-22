@@ -27,6 +27,13 @@ struct LoginView: View {
                         .cornerRadius(10)
                         .padding()
                         .foregroundColor(.white)
+                    
+                    CustomTextField(text: $password, placeholder: Text("Password"))
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .padding()
+                        .foregroundColor(.white)
                 }
                 
                 Spacer()
