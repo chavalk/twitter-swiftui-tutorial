@@ -30,6 +30,9 @@ struct RegistrationView: View {
                         .padding(.bottom, 16)
                         .foregroundColor(.white)
                 }
+                .sheet(isPresented: $showImagePicker) {
+                    Text("Image Picker")
+                }
 
                 VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
