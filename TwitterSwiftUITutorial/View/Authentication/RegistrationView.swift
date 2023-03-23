@@ -31,7 +31,7 @@ struct RegistrationView: View {
                         .foregroundColor(.white)
                 }
                 .sheet(isPresented: $showImagePicker) {
-                    Text("Image Picker")
+                    ImagePicker()
                 }
 
                 VStack(spacing: 20) {
