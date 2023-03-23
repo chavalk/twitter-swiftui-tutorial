@@ -17,15 +17,19 @@ struct RegistrationView: View {
     var body: some View {
         ZStack {
             VStack {
-                Image("plus_photo")
-                    .resizable()
-                    .renderingMode(.template)
-                    .scaledToFill()
-                    .frame(width: 140, height: 140)
-                    .padding(.top, 88)
-                    .padding(.bottom, 16)
-                    .foregroundColor(.white)
-                
+                Button {
+                    
+                } label: {
+                    Image("plus_photo")
+                        .resizable()
+                        .renderingMode(.template)
+                        .scaledToFill()
+                        .frame(width: 140, height: 140)
+                        .padding(.top, 88)
+                        .padding(.bottom, 16)
+                        .foregroundColor(.white)
+                }
+
                 VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
                         .padding()
