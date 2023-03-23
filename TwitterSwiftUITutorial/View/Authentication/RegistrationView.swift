@@ -13,6 +13,8 @@ struct RegistrationView: View {
     @State var fullName = ""
     @State var username = ""
     @State var showImagePicker = false
+    @State var selectedUIImage: UIImage?
+    @State var image: Image?
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     var body: some View {
