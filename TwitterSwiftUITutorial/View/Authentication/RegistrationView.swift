@@ -24,14 +24,25 @@ struct RegistrationView: View {
                     showImagePicker.toggle()
                 } label: {
                     ZStack {
-                        Image("plus_photo")
-                            .resizable()
-                            .renderingMode(.template)
-                            .scaledToFill()
-                            .frame(width: 140, height: 140)
-                            .padding(.top, 88)
-                            .padding(.bottom, 16)
-                        .foregroundColor(.white)
+                        if let image = image {
+                            image
+                                .resizable()
+                                .renderingMode(.template)
+                                .scaledToFill()
+                                .frame(width: 140, height: 140)
+                                .padding(.top, 88)
+                                .padding(.bottom, 16)
+                                .foregroundColor(.white)
+                        } else {
+                            Image("plus_photo")
+                                .resizable()
+                                .renderingMode(.template)
+                                .scaledToFill()
+                                .frame(width: 140, height: 140)
+                                .padding(.top, 88)
+                                .padding(.bottom, 16)
+                                .foregroundColor(.white)
+                        }
                     }
                 }
                 .sheet(isPresented: $showImagePicker) {
