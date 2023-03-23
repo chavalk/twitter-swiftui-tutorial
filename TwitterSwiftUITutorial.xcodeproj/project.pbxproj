@@ -34,6 +34,7 @@
 		BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4EE29CA726500F1842C /* RegistrationView.swift */; };
 		BE03E4F129CA86F900F1842C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4F029CA86F900F1842C /* CustomTextField.swift */; };
 		BE03E4F329CA94E800F1842C /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4F229CA94E800F1842C /* CustomSecureField.swift */; };
+		BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FDE29CC945700A317DA /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		BE03E4EE29CA726500F1842C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		BE03E4F029CA86F900F1842C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BE03E4F229CA94E800F1842C /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		BEC69FDE29CC945700A317DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				BE03E4E929CA543800F1842C /* TextArea.swift */,
 				BE03E4F029CA86F900F1842C /* CustomTextField.swift */,
 				BE03E4F229CA94E800F1842C /* CustomSecureField.swift */,
+				BEC69FDE29CC945700A317DA /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				BE03E4E629CA3E6F00F1842C /* NewTweetView.swift in Sources */,
 				BE03E4E329C5457D00F1842C /* FilterButtonView.swift in Sources */,
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
+				BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */,
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
 				BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */,
