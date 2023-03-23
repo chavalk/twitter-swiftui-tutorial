@@ -12,6 +12,7 @@ struct RegistrationView: View {
     @State var password = ""
     @State var fullName = ""
     @State var username = ""
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     var body: some View {
         ZStack {
