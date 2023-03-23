@@ -17,7 +17,7 @@ struct RegistrationView: View {
     var body: some View {
         ZStack {
             VStack {
-                Image("twitter-logo")
+                Image("plus_photo")
                     .resizable()
                     .scaledToFill()
                     .frame(width: 220, height: 100)
