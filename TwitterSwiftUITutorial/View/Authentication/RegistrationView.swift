@@ -65,15 +65,20 @@ struct RegistrationView: View {
 
                 Spacer()
                 
-                HStack {
-                    Text("Already have an account?")
-                        .font(.system(size: 14))
-                    
-                    Text("Sign In")
-                        .font(.system(size: 14, weight: .semibold))
+                Button {
+                    mode.wrappedValue.dismiss()
+                } label: {
+                    HStack {
+                        Text("Already have an account?")
+                            .font(.system(size: 14))
+                        
+                        Text("Sign In")
+                            .font(.system(size: 14, weight: .semibold))
+                    }
+                    .foregroundColor(.white)
+                    .padding(.bottom, 40)
                 }
-                .foregroundColor(.white)
-                .padding(.bottom, 40)
+
             }
         }
         .background(Color(red: 0.113, green: 0.632, blue: 0.954))
