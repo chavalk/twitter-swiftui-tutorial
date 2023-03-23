@@ -19,7 +19,7 @@ struct RegistrationView: View {
         ZStack {
             VStack {
                 Button {
-                    
+                    showImagePicker.toggle()
                 } label: {
                     Image("plus_photo")
                         .resizable()
