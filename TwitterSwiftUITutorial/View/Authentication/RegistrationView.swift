@@ -17,6 +17,11 @@ struct RegistrationView: View {
     @State var image: Image?
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
+    func loadImage() {
+        guard let selectedImage = selectedUIImage else { return }
+        image = Image(uiImage: selectedImage)
+    }
+    
     var body: some View {
         ZStack {
             VStack {
