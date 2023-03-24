@@ -50,7 +50,7 @@ struct RegistrationView: View {
                         }
                     }
                 }
-                .sheet(isPresented: $showImagePicker) {
+                .sheet(isPresented: $showImagePicker, onDismiss: loadImage) {
                     ImagePicker(image: $selectedUIImage)
                 }
 
