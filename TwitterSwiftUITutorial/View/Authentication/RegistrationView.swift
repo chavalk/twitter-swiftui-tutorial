@@ -32,12 +32,12 @@ struct RegistrationView: View {
                         if let image = image {
                             image
                                 .resizable()
-                                .renderingMode(.template)
                                 .scaledToFill()
                                 .frame(width: 140, height: 140)
+                                .clipped()
+                                .cornerRadius(70)
                                 .padding(.top, 88)
                                 .padding(.bottom, 16)
-                                .foregroundColor(.white)
                         } else {
                             Image("plus_photo")
                                 .resizable()
