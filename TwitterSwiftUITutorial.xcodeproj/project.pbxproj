@@ -35,6 +35,7 @@
 		BE03E4F129CA86F900F1842C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4F029CA86F900F1842C /* CustomTextField.swift */; };
 		BE03E4F329CA94E800F1842C /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E4F229CA94E800F1842C /* CustomSecureField.swift */; };
 		BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FDE29CC945700A317DA /* ImagePicker.swift */; };
+		BEC69FE329CE815C00A317DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		BE03E4F029CA86F900F1842C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BE03E4F229CA94E800F1842C /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		BEC69FDE29CC945700A317DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BE03E4BB29BCC74C00F1842C /* View Models */,
 				BE03E4AD29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift */,
 				BE03E4B129BC1A2800F1842C /* Assets.xcassets */,
+				BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */,
 				BE03E4B329BC1A2800F1842C /* Preview Content */,
 			);
 			path = TwitterSwiftUITutorial;
@@ -271,6 +274,7 @@
 			files = (
 				BE03E4B529BC1A2800F1842C /* Preview Assets.xcassets in Resources */,
 				BE03E4B229BC1A2800F1842C /* Assets.xcassets in Resources */,
+				BEC69FE329CE815C00A317DA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
