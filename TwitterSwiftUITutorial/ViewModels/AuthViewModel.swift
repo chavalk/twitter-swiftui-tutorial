@@ -9,4 +9,11 @@ import SwiftUI
 
 class AuthViewModel: ObservableObject {
     
+    func login() {
+        
+    }
+    
+    func registerUser(email: String, password: String, username: String, fullName: String, profileImage: UIImage) {
+        
+    }
 }
