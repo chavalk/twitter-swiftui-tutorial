@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 class AuthViewModel: ObservableObject {
     
@@ -15,5 +16,7 @@ class AuthViewModel: ObservableObject {
     
     func registerUser(email: String, password: String, username: String, fullName: String, profileImage: UIImage) {
         
+        print("DEBUG: Email is \(email)")
+        print("DEBUG: Password is \(password)")
     }
 }
