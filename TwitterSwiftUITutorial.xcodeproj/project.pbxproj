@@ -112,7 +112,7 @@
 				BE03E4E729CA541500F1842C /* Utils */,
 				BE03E4BD29BCC75900F1842C /* Model */,
 				BE03E4BC29BCC75600F1842C /* View */,
-				BE03E4BB29BCC74C00F1842C /* View Models */,
+				BE03E4BB29BCC74C00F1842C /* ViewModels */,
 				BE03E4AD29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift */,
 				BE03E4B129BC1A2800F1842C /* Assets.xcassets */,
 				BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */,
@@ -129,11 +129,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BE03E4BB29BCC74C00F1842C /* View Models */ = {
+		BE03E4BB29BCC74C00F1842C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "View Models";
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		BE03E4BC29BCC75600F1842C /* View */ = {
