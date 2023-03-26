@@ -40,6 +40,7 @@
 		BEC69FE829CF94C100A317DA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FE729CF94C100A317DA /* FirebaseFirestore */; };
 		BEC69FEA29CF94C100A317DA /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FE929CF94C100A317DA /* FirebaseFunctions */; };
 		BEC69FEC29CF94C100A317DA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FEB29CF94C100A317DA /* FirebaseStorage */; };
+		BEC69FEE29CFE82100A317DA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FED29CFE82100A317DA /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		BE03E4F229CA94E800F1842C /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		BEC69FDE29CC945700A317DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BEC69FED29CFE82100A317DA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		BE03E4BB29BCC74C00F1842C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BEC69FED29CFE82100A317DA /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
 				BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */,
+				BEC69FEE29CFE82100A317DA /* AuthViewModel.swift in Sources */,
 				BE03E4D629C2773000F1842C /* Message.swift in Sources */,
 				BE03E4DD29C509AC00F1842C /* UserProfileView.swift in Sources */,
 				BE03E4C729BCFB4300F1842C /* SearchBar.swift in Sources */,
