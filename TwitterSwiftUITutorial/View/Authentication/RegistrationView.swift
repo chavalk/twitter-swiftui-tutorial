@@ -83,7 +83,8 @@ struct RegistrationView: View {
                 .padding(.horizontal, 32)
                 
                 Button {
-                    
+                    guard let image = selectedUIImage else { return }
+                    viewModel.registerUser(email: email, password: password, username: username, fullName: fullName, profileImage: image)
                 } label: {
                     Text("Sign Up")
                         .font(.headline)
