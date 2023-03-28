@@ -27,6 +27,8 @@ class AuthViewModel: ObservableObject {
                 return
             }
             
+            print("DEBUG: Successfully uploaded user photo...")
+            
             storageRef.downloadURL { url, _ in
                 guard let profileImageUrl = url?.absoluteString else { return }
                 
@@ -34,6 +36,14 @@ class AuthViewModel: ObservableObject {
                     if let error = error {
                         print("DEBUG: Error \(error.localizedDescription)")
                         return
+                    }
+                    
+                    guard let user = result?.user else { return }
+                    
+                    let data = ["email": email, "username": username, "fullName": fullName, "profileImageUrl": profileImageUrl, "uid": user.uid]
+                    
+                    Firestore.firestore().collection("users").document(user.uid).setData(data) { _ in
+                        print("DEBUG: Successfully uploaded user data...")
                     }
                 }
             }
