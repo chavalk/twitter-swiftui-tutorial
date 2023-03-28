@@ -54,7 +54,7 @@ struct LoginView: View {
                     }
                     
                     Button {
-                        
+                        viewModel.login(withEmail: email, password: password)
                     } label: {
                         Text("Sign In")
                             .font(.headline)
