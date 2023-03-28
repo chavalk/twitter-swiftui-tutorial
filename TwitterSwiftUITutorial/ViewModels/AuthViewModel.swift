@@ -15,6 +15,10 @@ class AuthViewModel: ObservableObject {
     @Published var error: Error?
     @Published var user: User?
     
+    init() {
+        userSession = Auth.auth().currentUser
+    }
+    
     func login(withEmail email: String, password: String) {
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if let error = error {
