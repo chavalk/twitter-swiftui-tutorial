@@ -11,8 +11,15 @@ import FirebaseStorage
 
 class AuthViewModel: ObservableObject {
     
-    func login() {
-        
+    func login(withEmail email: String, password: String) {
+        Auth.auth().signIn(withEmail: email, password: password) { result, error in
+            if let error = error {
+                print("DEBUG: Failed to login: \(error.localizedDescription)")
+                return
+            }
+            
+            print("DEBUG: Successfully logged in...")
+        }
     }
     
     func registerUser(email: String, password: String, username: String, fullName: String, profileImage: UIImage) {
