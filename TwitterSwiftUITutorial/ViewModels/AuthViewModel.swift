@@ -13,7 +13,7 @@ class AuthViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
     @Published var isAuthenticating = false
     @Published var error: Error?
-    @Published var user: User?
+//    @Published var user: User?
     
     init() {
         userSession = Auth.auth().currentUser
@@ -58,7 +58,7 @@ class AuthViewModel: ObservableObject {
                     let data = ["email": email, "username": username, "fullName": fullName, "profileImageUrl": profileImageUrl, "uid": user.uid]
                     
                     Firestore.firestore().collection("users").document(user.uid).setData(data) { _ in
-                        print("DEBUG: Successfully uploaded user data...")
+                        self.userSession = user
                     }
                 }
             }
