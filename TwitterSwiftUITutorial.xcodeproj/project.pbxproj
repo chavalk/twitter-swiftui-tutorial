@@ -41,6 +41,7 @@
 		BEC69FEA29CF94C100A317DA /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FE929CF94C100A317DA /* FirebaseFunctions */; };
 		BEC69FEC29CF94C100A317DA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FEB29CF94C100A317DA /* FirebaseStorage */; };
 		BEC69FEE29CFE82100A317DA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FED29CFE82100A317DA /* AuthViewModel.swift */; };
+		BEC69FF029D4B55A00A317DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FEF29D4B55A00A317DA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		BEC69FDE29CC945700A317DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		BEC69FE229CE815B00A317DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BEC69FED29CFE82100A317DA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		BEC69FEF29D4B55A00A317DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4D529C2773000F1842C /* Message.swift */,
+				BEC69FEF29D4B55A00A317DA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				BEC69FEE29CFE82100A317DA /* AuthViewModel.swift in Sources */,
 				BE03E4D629C2773000F1842C /* Message.swift in Sources */,
 				BE03E4DD29C509AC00F1842C /* UserProfileView.swift in Sources */,
+				BEC69FF029D4B55A00A317DA /* User.swift in Sources */,
 				BE03E4C729BCFB4300F1842C /* SearchBar.swift in Sources */,
 				BE03E4E129C5452900F1842C /* ProfileActionButtonView.swift in Sources */,
 				BE03E4F129CA86F900F1842C /* CustomTextField.swift in Sources */,
