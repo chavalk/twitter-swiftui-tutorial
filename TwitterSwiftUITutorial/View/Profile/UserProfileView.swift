@@ -14,7 +14,7 @@ struct UserProfileView: View {
     var body: some View {
         ScrollView {
             VStack {
-                ProfileHeaderView()
+                ProfileHeaderView(user: user)
                     .padding()
                 
                 FilterButtonView(selectedOption: $selectedFilter)
