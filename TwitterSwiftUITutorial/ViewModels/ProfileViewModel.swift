@@ -12,7 +12,7 @@ class ProfileViewModel: ObservableObject {
     @Published var isFollowed = false
     
     func follow() {
-        
+        guard let uid = Auth.auth().currentUser?.uid else { return }
     }
     
     func unfollow() {
