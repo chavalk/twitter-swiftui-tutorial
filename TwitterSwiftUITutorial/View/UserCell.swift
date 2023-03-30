@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct UserCell: View {
+    let user: User
+    
     var body: some View {
         HStack(spacing: 12) {
             Image("venom-10")
