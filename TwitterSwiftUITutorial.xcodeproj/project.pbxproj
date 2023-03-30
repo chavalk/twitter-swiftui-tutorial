@@ -45,6 +45,7 @@
 		BEC69FF329D5101100A317DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FF229D5101100A317DA /* Kingfisher */; };
 		BEC69FF529D5165300A317DA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF429D5165300A317DA /* SearchViewModel.swift */; };
 		BEC69FF729D51A1600A317DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF629D51A1600A317DA /* Constants.swift */; };
+		BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		BEC69FEF29D4B55A00A317DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BEC69FF429D5165300A317DA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		BEC69FF629D51A1600A317DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				BEC69FED29CFE82100A317DA /* AuthViewModel.swift */,
 				BEC69FF429D5165300A317DA /* SearchViewModel.swift */,
+				BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */,
 				BE03E4ED29CA725400F1842C /* LoginView.swift in Sources */,
 				BE03E4E629CA3E6F00F1842C /* NewTweetView.swift in Sources */,
+				BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */,
 				BE03E4E329C5457D00F1842C /* FilterButtonView.swift in Sources */,
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
 				BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */,
