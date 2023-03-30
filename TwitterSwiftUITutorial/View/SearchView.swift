@@ -17,13 +17,13 @@ struct SearchView: View {
                 .padding()
             
             VStack(alignment: .leading) {
-                ForEach(0..<10) { _ in
+                ForEach(viewModel.users) { user in
                     HStack { Spacer() }
                     
                     NavigationLink {
                         UserProfileView()
                     } label: {
-                        UserCell(user: <#User#>)
+                        UserCell(user: user)
                     }
                 }
             }
