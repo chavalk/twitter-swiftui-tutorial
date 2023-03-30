@@ -19,14 +19,14 @@ struct NewMessageView: View {
                 .padding()
             
             VStack(alignment: .leading) {
-                ForEach(0..<10) { _ in
+                ForEach(viewModel.users) { user in
                     HStack { Spacer() }
                     
                     Button {
                         self.show.toggle()
                         self.startChat.toggle()
                     } label: {
-                        UserCell(user: <#User#>)
+                        UserCell(user: user)
                     }
 
                 }
