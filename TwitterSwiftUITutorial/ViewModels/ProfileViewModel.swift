@@ -11,7 +11,7 @@ import Firebase
 class ProfileViewModel: ObservableObject {
     @Published var isFollowed = false
     
-    func follow() {
+    func follow(uid: String) {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
         
         COLLECTION_FOLLOWING.document(currentUid).collection("user-following").document(uid).setData([:]) { _ in
