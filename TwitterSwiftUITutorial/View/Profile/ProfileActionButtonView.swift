@@ -49,8 +49,8 @@ struct ProfileActionButtonView: View {
     }
 }
 
-struct ProfileActionButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileActionButtonView(isCurrentUser: true)
-    }
-}
+//struct ProfileActionButtonView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProfileActionButtonView(isCurrentUser: true)
+//    }
+//}
