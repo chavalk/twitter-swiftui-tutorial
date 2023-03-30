@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 class ProfileViewModel: ObservableObject {
     @Published var isFollowed = false
