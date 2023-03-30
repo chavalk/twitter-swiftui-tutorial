@@ -16,11 +16,11 @@ class ProfileViewModel: ObservableObject {
         self.user = user
     }
     
-    func follow(uid: String) {
+    func follow() {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
         
-        COLLECTION_FOLLOWING.document(currentUid).collection("user-following").document(uid).setData([:]) { _ in
-            COLLECTION_FOLLOWERS.document(uid).collection("user-followers").document(currentUid).setData([:]) { _ in
+        COLLECTION_FOLLOWING.document(currentUid).collection("user-following").document(user.id).setData([:]) { _ in
+            COLLECTION_FOLLOWERS.document(self.user.id).collection("user-followers").document(currentUid).setData([:]) { _ in
                 self.isFollowed = true
             }
         }
