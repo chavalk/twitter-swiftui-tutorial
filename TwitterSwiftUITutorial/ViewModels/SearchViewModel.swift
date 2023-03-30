@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 class SearchViewModel: ObservableObject {
     @Published var users = [User]()
