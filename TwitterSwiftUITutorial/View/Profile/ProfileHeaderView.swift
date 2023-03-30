@@ -13,7 +13,7 @@ struct ProfileHeaderView: View {
     
     var body: some View {
         VStack {
-            Image("batman")
+            KFImage(URL(string: user.profileImageUrl))
                 .resizable()
                 .scaledToFill()
                 .clipped()
