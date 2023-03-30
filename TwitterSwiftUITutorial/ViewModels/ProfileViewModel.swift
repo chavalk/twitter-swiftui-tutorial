@@ -9,4 +9,12 @@ import SwiftUI
 
 class ProfileViewModel: ObservableObject {
     @Published var isFollowed = false
+    
+    func follow() {
+        
+    }
+    
+    func unfollow() {
+        
+    }
 }
