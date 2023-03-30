@@ -9,7 +9,12 @@ import SwiftUI
 import Firebase
 
 class ProfileViewModel: ObservableObject {
+    let user: User
     @Published var isFollowed = false
+    
+    init(user: User) {
+        self.user = user
+    }
     
     func follow(uid: String) {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
