@@ -56,7 +56,7 @@ struct ProfileHeaderView: View {
             }
             .padding()
             
-            ProfileActionButtonView(isCurrentUser: true)
+            ProfileActionButtonView(isCurrentUser: user.isCurrentUser)
             
             Spacer()
         }
