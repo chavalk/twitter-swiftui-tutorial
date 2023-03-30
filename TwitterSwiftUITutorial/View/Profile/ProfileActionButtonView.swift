@@ -26,7 +26,7 @@ struct ProfileActionButtonView: View {
         } else {
             HStack {
                 Button {
-                    
+                    print("DEBUG: Follow here...")
                 } label: {
                     Text("Follow")
                         .frame(width: 180, height: 40)
