@@ -10,7 +10,6 @@ import Kingfisher
 
 struct ProfileHeaderView: View {
     let viewModel: ProfileViewModel
-    let user: User
     
     var body: some View {
         VStack {
