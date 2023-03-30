@@ -25,7 +25,7 @@ struct NewMessageView: View {
                         self.show.toggle()
                         self.startChat.toggle()
                     } label: {
-                        UserCell()
+                        UserCell(user: <#User#>)
                     }
 
                 }
