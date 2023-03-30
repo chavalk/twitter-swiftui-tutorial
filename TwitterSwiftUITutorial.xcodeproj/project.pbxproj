@@ -44,6 +44,7 @@
 		BEC69FF029D4B55A00A317DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FEF29D4B55A00A317DA /* User.swift */; };
 		BEC69FF329D5101100A317DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BEC69FF229D5101100A317DA /* Kingfisher */; };
 		BEC69FF529D5165300A317DA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF429D5165300A317DA /* SearchViewModel.swift */; };
+		BEC69FF729D51A1600A317DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF629D51A1600A317DA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		BEC69FED29CFE82100A317DA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		BEC69FEF29D4B55A00A317DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BEC69FF429D5165300A317DA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		BEC69FF629D51A1600A317DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4E829CA542300F1842C /* Views */,
+				BEC69FF629D51A1600A317DA /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */,
 				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
+				BEC69FF729D51A1600A317DA /* Constants.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
 				BE03E4DF29C544CA00F1842C /* ProfileHeaderView.swift in Sources */,
 				BE03E4D229C1220200F1842C /* ChatView.swift in Sources */,
