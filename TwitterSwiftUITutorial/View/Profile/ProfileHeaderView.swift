@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProfileHeaderView: View {
+    let user: User
+    
     var body: some View {
         VStack {
             Image("batman")
