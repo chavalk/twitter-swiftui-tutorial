@@ -9,6 +9,7 @@ import SwiftUI
 
 struct UserProfileView: View {
     @State var selectedFilter: TweetFilterOptions = .tweets
+    let user: User
     
     var body: some View {
         ScrollView {
