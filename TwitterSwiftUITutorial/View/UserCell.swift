@@ -20,10 +20,10 @@ struct UserCell: View {
                 .cornerRadius(28)
             
             VStack(alignment: .leading, spacing: 4) {
-                Text("venom")
+                Text(user.username)
                     .font(.system(size: 14, weight: .semibold))
                 
-                Text("Eddie Brock")
+                Text(user.fullName)
                     .font(.system(size: 14))
             }
             .foregroundColor(.black)
