@@ -8,5 +8,5 @@
 import SwiftUI
 
 class ProfileViewModel: ObservableObject {
-    
+    @Published var isFollowed = false
 }
