@@ -10,6 +10,7 @@ import SwiftUI
 struct UserProfileView: View {
     @State var selectedFilter: TweetFilterOptions = .tweets
     let user: User
+    @ObservedObject var viewModel = ProfileViewModel()
     
     var body: some View {
         ScrollView {
