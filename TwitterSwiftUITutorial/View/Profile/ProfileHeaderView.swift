@@ -9,6 +9,7 @@ import SwiftUI
 import Kingfisher
 
 struct ProfileHeaderView: View {
+    @Binding var isFollowed: Bool
     let viewModel: ProfileViewModel
     
     var body: some View {
