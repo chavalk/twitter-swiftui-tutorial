@@ -27,7 +27,7 @@ struct ProfileActionButtonView: View {
                 Button {
                     isFollowed ? viewModel.unfollow() : viewModel.follow()
                 } label: {
-                    Text("Follow")
+                    Text(isFollowed ? "Following" : "Follow")
                         .frame(width: 180, height: 40)
                         .background(Color.blue)
                         .foregroundColor(.white)
