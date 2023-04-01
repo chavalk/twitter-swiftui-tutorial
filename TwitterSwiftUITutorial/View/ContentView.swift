@@ -37,7 +37,7 @@ struct ContentView: View {
                     }
                     .navigationBarTitle("Home")
                     .navigationBarItems(leading: Button(action: {
-                        
+                        viewModel.signOut()
                     }, label: {
                         if let user = viewModel.user {
                             KFImage(URL(string: user.profileImageUrl))
