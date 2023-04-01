@@ -36,6 +36,11 @@ struct ContentView: View {
                             }
                     }
                     .navigationBarTitle("Home")
+                    .navigationBarItems(leading: Button(action: {
+                        
+                    }, label: {
+                        
+                    }))
                     .navigationBarTitleDisplayMode(.inline)
                 }
             } else {
