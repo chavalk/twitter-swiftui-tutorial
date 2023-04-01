@@ -13,7 +13,7 @@ class AuthViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
     @Published var isAuthenticating = false
     @Published var error: Error?
-//    @Published var user: User?
+    @Published var user: User?
     
     init() {
         userSession = Auth.auth().currentUser
