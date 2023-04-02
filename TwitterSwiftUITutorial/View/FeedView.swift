@@ -23,8 +23,7 @@ struct FeedView: View {
             }
             
             Button {
-                viewModel.signOut()
-//                isShowingNewTweetView.toggle()
+                isShowingNewTweetView.toggle()
             } label: {
                 Image("tweet")
                     .resizable()
