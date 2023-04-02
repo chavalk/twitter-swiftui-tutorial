@@ -44,8 +44,6 @@ class AuthViewModel: ObservableObject {
                 return
             }
             
-            print("DEBUG: Successfully uploaded user photo...")
-            
             storageRef.downloadURL { url, _ in
                 guard let profileImageUrl = url?.absoluteString else { return }
                 
