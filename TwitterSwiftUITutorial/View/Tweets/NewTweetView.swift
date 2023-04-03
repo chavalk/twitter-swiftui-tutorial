@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct NewTweetView: View {
     @Binding var isPresented: Bool
