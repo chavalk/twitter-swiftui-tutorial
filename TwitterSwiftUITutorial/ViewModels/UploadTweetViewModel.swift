@@ -15,5 +15,9 @@ class UploadTweetViewModel: ObservableObject {
         let docRef = COLLECTION_TWEETS.document()
         
         let data: [String: Any] = ["uid": user.id, "caption": caption, "fullName": user.fullName, "timestamp": Timestamp(date: Date()), "username": user.username, "profileImageUrl": user.profileImageUrl, "likes": 0, "id": docRef.documentID]
+        
+        docRef.setData(data) { _ in
+            print("DEBUG: Successfully uploaded tweet...")
+        }
     }
 }
