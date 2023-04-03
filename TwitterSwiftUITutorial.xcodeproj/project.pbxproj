@@ -48,6 +48,7 @@
 		BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */; };
 		BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */; };
 		BEC69FFD29DB315E00A317DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */; };
+		BEC69FFF29DB31AE00A317DA /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFE29DB31AE00A317DA /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		BEC69FFE29DB31AE00A317DA /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				BE03E4D529C2773000F1842C /* Message.swift */,
 				BEC69FEF29D4B55A00A317DA /* User.swift */,
+				BEC69FFE29DB31AE00A317DA /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */,
 				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
+				BEC69FFF29DB31AE00A317DA /* Tweet.swift in Sources */,
 				BEC69FFD29DB315E00A317DA /* FeedViewModel.swift in Sources */,
 				BEC69FF729D51A1600A317DA /* Constants.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
