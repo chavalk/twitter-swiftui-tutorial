@@ -23,6 +23,7 @@ class UploadTweetViewModel: ObservableObject {
         
         docRef.setData(data) { _ in
             print("DEBUG: Successfully uploaded tweet...")
+            self.isPresented = false
         }
     }
 }
