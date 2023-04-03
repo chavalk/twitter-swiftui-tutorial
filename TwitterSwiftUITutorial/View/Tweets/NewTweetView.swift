@@ -16,7 +16,7 @@ struct NewTweetView: View {
         NavigationView {
             VStack {
                 HStack(alignment: .top) {
-                    Image("batman")
+                    KFImage()
                         .resizable()
                         .scaledToFill()
                         .clipped()
