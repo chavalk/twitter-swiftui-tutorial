@@ -13,6 +13,11 @@ struct NewTweetView: View {
     @State var captionText: String = ""
     @ObservedObject var viewModel: UploadTweetViewModel
     
+    init(isPresented: Binding<Bool>) {
+        self._isPresented = isPresented
+        self.viewModel = UploadTweetViewModel(isPresented: isPresented)
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
