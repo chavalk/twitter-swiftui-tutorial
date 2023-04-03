@@ -10,6 +10,6 @@ import SwiftUI
 class UploadTweetViewModel: ObservableObject {
     
     func uploadTweet() {
-        
+        print("DEBUG: Upload tweet here...")
     }
 }
