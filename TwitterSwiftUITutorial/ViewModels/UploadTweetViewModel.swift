@@ -9,4 +9,7 @@ import SwiftUI
 
 class UploadTweetViewModel: ObservableObject {
     
+    func uploadTweet() {
+        
+    }
 }
