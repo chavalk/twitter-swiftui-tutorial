@@ -47,6 +47,7 @@
 		BEC69FF729D51A1600A317DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF629D51A1600A317DA /* Constants.swift */; };
 		BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */; };
 		BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */; };
+		BEC69FFD29DB315E00A317DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		BEC69FF629D51A1600A317DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
+		BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				BEC69FF429D5165300A317DA /* SearchViewModel.swift */,
 				BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */,
 				BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */,
+				BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */,
 				BE03E4D029C11B3300F1842C /* MessageInputView.swift in Sources */,
 				BE03E4B029BC1A2500F1842C /* ContentView.swift in Sources */,
+				BEC69FFD29DB315E00A317DA /* FeedViewModel.swift in Sources */,
 				BEC69FF729D51A1600A317DA /* Constants.swift in Sources */,
 				BE03E4BF29BCC91C00F1842C /* FeedView.swift in Sources */,
 				BE03E4DF29C544CA00F1842C /* ProfileHeaderView.swift in Sources */,
