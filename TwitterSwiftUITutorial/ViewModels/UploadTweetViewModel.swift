@@ -11,7 +11,6 @@ import Firebase
 class UploadTweetViewModel: ObservableObject {
     
     func uploadTweet(caption: String) {
-        guard let uid = AuthViewModel.shared.userSession?.uid else { return }
         guard let user = AuthViewModel.shared.user else { return }
         let docRef = COLLECTION_TWEETS.document()
         
