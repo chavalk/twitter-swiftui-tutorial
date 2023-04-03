@@ -15,6 +15,8 @@ class AuthViewModel: ObservableObject {
     @Published var error: Error?
     @Published var user: User?
     
+    static let shared = AuthViewModel()
+    
     init() {
         userSession = Auth.auth().currentUser
         fetchUser()
