@@ -37,7 +37,7 @@ struct NewTweetView: View {
                     Text("Cancel")
                         .foregroundColor(.blue)
                 }), trailing: Button(action: {
-                    
+                    viewModel.uploadTweet()
                 }, label: {
                     Text("Tweet")
                         .padding(.horizontal)
