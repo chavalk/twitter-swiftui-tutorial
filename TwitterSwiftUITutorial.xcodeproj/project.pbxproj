@@ -46,6 +46,7 @@
 		BEC69FF529D5165300A317DA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF429D5165300A317DA /* SearchViewModel.swift */; };
 		BEC69FF729D51A1600A317DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF629D51A1600A317DA /* Constants.swift */; };
 		BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */; };
+		BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		BEC69FF429D5165300A317DA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		BEC69FF629D51A1600A317DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				BEC69FED29CFE82100A317DA /* AuthViewModel.swift */,
 				BEC69FF429D5165300A317DA /* SearchViewModel.swift */,
 				BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */,
+				BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */,
 				BE03E4E329C5457D00F1842C /* FilterButtonView.swift in Sources */,
 				BE03E4AE29BC1A2500F1842C /* TwitterSwiftUITutorialApp.swift in Sources */,
+				BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */,
 				BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */,
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
