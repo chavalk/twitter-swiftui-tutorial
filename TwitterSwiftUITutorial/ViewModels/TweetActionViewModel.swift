@@ -14,6 +14,7 @@ class TweetActionViewModel: ObservableObject {
     
     init(tweet: Tweet) {
         self.tweet = tweet
+        checkIfUserLikedTweet()
     }
     
     func likeTweet() {
