@@ -14,7 +14,7 @@ struct TweetCell: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .top, spacing: 12) {
-                Image("batman")
+                KFImage(URL(string: tweet.profileImageUrl))
                     .resizable()
                     .scaledToFill()
                     .clipped()
