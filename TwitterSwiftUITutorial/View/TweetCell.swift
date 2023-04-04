@@ -24,17 +24,17 @@ struct TweetCell: View {
                 
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
-                        Text("Bruce Wayne")
+                        Text(tweet.fullName)
                             .font(.system(size: 14, weight: .semibold))
                         
-                        Text("@batman •")
+                        Text("@\(tweet.username) •")
                             .foregroundColor(.gray)
                         
                         Text("2w")
                             .foregroundColor(.gray)
                     }
                     
-                    Text("It's not who I am underneath, but what I do that defines me.")
+                    Text(tweet.caption)
                 }
             }
             .padding(.bottom)
