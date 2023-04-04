@@ -33,4 +33,8 @@ class TweetActionViewModel: ObservableObject {
     func unlikeTweet() {
         
     }
+    
+    func checkIfUserLikedTweet() {
+        
+    }
 }
