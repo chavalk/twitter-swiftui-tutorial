@@ -49,6 +49,7 @@
 		BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */; };
 		BEC69FFD29DB315E00A317DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */; };
 		BEC69FFF29DB31AE00A317DA /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFE29DB31AE00A317DA /* Tweet.swift */; };
+		BEC6A00129DBC55E00A317DA /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BEC69FFE29DB31AE00A317DA /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4E529CA3E6F00F1842C /* NewTweetView.swift */,
+				BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */,
 			);
 			path = Tweets;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
 				BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */,
+				BEC6A00129DBC55E00A317DA /* TweetDetailView.swift in Sources */,
 				BEC69FEE29CFE82100A317DA /* AuthViewModel.swift in Sources */,
 				BEC69FF529D5165300A317DA /* SearchViewModel.swift in Sources */,
 				BE03E4D629C2773000F1842C /* Message.swift in Sources */,
