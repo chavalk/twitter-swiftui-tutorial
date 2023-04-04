@@ -31,7 +31,17 @@ class TweetActionViewModel: ObservableObject {
     }
     
     func unlikeTweet() {
+        guard let uid = AuthViewModel.shared.userSession?.uid else { return }
+        let tweetLikesRef = COLLECTION_TWEETS.document(tweet.id).collection("tweet-likes")
+        let userLikesRef = COLLECTION_USERS.document(uid).collection("user-likes")
         
+        COLLECTION_TWEETS.document(tweet.id).updateData(["likes": tweet.likes - 1]) { _ in
+            tweetLikesRef.document(uid).delete { _ in
+                userLikesRef.document(self.tweet.id).delete { _ in
+                    self.didLike = false
+                }
+            }
+        }
     }
     
     func checkIfUserLikedTweet() {
