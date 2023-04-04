@@ -26,7 +26,7 @@ struct UserProfileView: View {
                 FilterButtonView(selectedOption: $selectedFilter)
                     .padding()
                 
-                ForEach(0..<9) { tweet in
+                ForEach(viewModel.userTweets) { tweet in
 //                    TweetCell()
 //                        .padding()
                 }
