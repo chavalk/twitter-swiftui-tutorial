@@ -63,6 +63,7 @@ struct TweetDetailView: View {
             
             Spacer()
         }
+        .padding()
     }
 }
 
