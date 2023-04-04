@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TweetActionsView: View {
+    @ObservedObject var viewModel = TweetActionViewModel()
+    
     var body: some View {
         HStack {
             Button {
