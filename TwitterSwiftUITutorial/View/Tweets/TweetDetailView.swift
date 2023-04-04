@@ -22,16 +22,16 @@ struct TweetDetailView: View {
                     .cornerRadius(28)
                 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Bruce Wayne")
+                    Text(tweet.fullName)
                         .font(.system(size: 14, weight: .semibold))
                     
-                    Text("@batman")
+                    Text(tweet.username)
                         .font(.system(size: 14))
                         .foregroundColor(.gray)
                 }
             }
             
-            Text("It's not who I am underneath, but what I do that defines me.")
+            Text(tweet.caption)
                 .font(.system(size: 22))
             
             Text("7:22 PM • 05/01/2020")
@@ -51,7 +51,7 @@ struct TweetDetailView: View {
                 }
                 
                 HStack(spacing: 4) {
-                    Text("0")
+                    Text("\(tweet.likes)")
                         .font(.system(size: 14, weight: .semibold))
                     
                     Text("Likes")
