@@ -27,8 +27,8 @@ struct UserProfileView: View {
                     .padding()
                 
                 ForEach(viewModel.userTweets) { tweet in
-//                    TweetCell()
-//                        .padding()
+                    TweetCell(tweet: tweet)
+                        .padding()
                 }
             }
             
