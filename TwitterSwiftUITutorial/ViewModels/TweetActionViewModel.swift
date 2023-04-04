@@ -9,4 +9,11 @@ import Foundation
 
 class TweetActionViewModel: ObservableObject {
     
+    func likeTweet() {
+        
+    }
+    
+    func unlikeTweet() {
+        
+    }
 }
