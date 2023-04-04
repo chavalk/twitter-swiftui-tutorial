@@ -32,7 +32,7 @@ struct UserProfileView: View {
                 }
             }
             
-            .navigationTitle("batman")
+            .navigationTitle(user.username)
         }
     }
 }
