@@ -51,6 +51,7 @@
 		BEC69FFF29DB31AE00A317DA /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC69FFE29DB31AE00A317DA /* Tweet.swift */; };
 		BEC6A00129DBC55E00A317DA /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */; };
 		BEC6A00329DC5B0400A317DA /* TweetActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */; };
+		BEC6A00529DC8FBA00A317DA /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		BEC69FFE29DB31AE00A317DA /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
 		BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionsView.swift; sourceTree = "<group>"; };
+		BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				BEC69FF829D5F5FE00A317DA /* ProfileViewModel.swift */,
 				BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */,
 				BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */,
+				BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				BEC69FFB29DA73C500A317DA /* UploadTweetViewModel.swift in Sources */,
 				BEC69FDF29CC945700A317DA /* ImagePicker.swift in Sources */,
 				BE03E4D429C1555000F1842C /* ChatBubble.swift in Sources */,
+				BEC6A00529DC8FBA00A317DA /* TweetActionViewModel.swift in Sources */,
 				BE03E4C129BCD54100F1842C /* TweetCell.swift in Sources */,
 				BE03E4DA29C416E600F1842C /* NewMessageView.swift in Sources */,
 				BEC6A00129DBC55E00A317DA /* TweetDetailView.swift in Sources */,
