@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct TweetDetailView: View {
+    let tweet : Tweet
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
