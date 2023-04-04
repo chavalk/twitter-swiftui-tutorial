@@ -10,6 +10,7 @@ import Firebase
 
 class TweetActionViewModel: ObservableObject {
     let tweet: Tweet
+    @Published var didLike = false
     
     init(tweet: Tweet) {
         self.tweet = tweet
@@ -24,7 +25,7 @@ class TweetActionViewModel: ObservableObject {
         
         tweetLikesRef.document(uid).setData([:]) { _ in
             userLikesRef.document(self.tweet.id).setData([:]) { _ in
-                <#code#>
+                self.didLike = true
             }
         }
     }
