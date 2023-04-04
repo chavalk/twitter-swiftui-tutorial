@@ -58,6 +58,10 @@ struct TweetDetailView: View {
             }
             
             Divider()
+            
+            TweetActionsView()
+            
+            Spacer()
         }
     }
 }
