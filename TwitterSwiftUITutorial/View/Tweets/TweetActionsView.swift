@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TweetActionsView: View {
+    let tweet: Tweet
     @ObservedObject var viewModel = TweetActionViewModel()
     
     var body: some View {
