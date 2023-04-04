@@ -41,7 +41,7 @@ struct TweetActionsView: View {
             Button {
                 
             } label: {
-                Image(systemName: "heart")
+                Image(systemName: viewModel.didLike ? "heart.fill" : "heart")
                     .font(.system(size: 16))
                     .frame(width: 32, height: 32)
             }
