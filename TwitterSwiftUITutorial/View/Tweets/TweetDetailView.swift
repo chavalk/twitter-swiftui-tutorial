@@ -70,8 +70,8 @@ struct TweetDetailView: View {
     }
 }
 
-struct TweetDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        TweetDetailView()
-    }
-}
+//struct TweetDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TweetDetailView()
+//    }
+//}
