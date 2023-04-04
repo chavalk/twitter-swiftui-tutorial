@@ -59,7 +59,7 @@ class ProfileViewModel: ObservableObject {
         COLLECTION_TWEETS.whereField("uid", isEqualTo: user.id).getDocuments { snapshot, _ in
             guard let documents = snapshot?.documents else { return }
             documents.forEach { document in
-                print("DEBUG: Doc data is \(document.data())")
+//                print("DEBUG: Doc data is \(document.data())")
             }
         }
     }
