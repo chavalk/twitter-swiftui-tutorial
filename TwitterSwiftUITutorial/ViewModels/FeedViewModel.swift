@@ -9,4 +9,12 @@ import SwiftUI
 
 class FeedViewModel: ObservableObject {
     @Published var tweets = [Tweet]()
+    
+    init() {
+        fetchTweets()
+    }
+    
+    func fetchTweets() {
+        
+    }
 }
