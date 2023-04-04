@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import Firebase
 
 class TweetActionViewModel: ObservableObject {
     
     func likeTweet() {
-        
+        guard let uid = AuthViewModel.shared.userSession?.uid else { return }
     }
     
     func unlikeTweet() {
