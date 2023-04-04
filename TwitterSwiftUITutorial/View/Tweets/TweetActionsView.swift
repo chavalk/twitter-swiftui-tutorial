@@ -11,6 +11,11 @@ struct TweetActionsView: View {
     let tweet: Tweet
     @ObservedObject var viewModel: TweetActionViewModel
     
+    init(tweet: Tweet) {
+        self.tweet = tweet
+        self.viewModel = TweetActionViewModel(tweet: tweet)
+    }
+    
     var body: some View {
         HStack {
             Button {
