@@ -52,6 +52,7 @@
 		BEC6A00129DBC55E00A317DA /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */; };
 		BEC6A00329DC5B0400A317DA /* TweetActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */; };
 		BEC6A00529DC8FBA00A317DA /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */; };
+		BEC6A00729DD13BF00A317DA /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00629DD13BF00A317DA /* LazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
 		BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionsView.swift; sourceTree = "<group>"; };
 		BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
+		BEC6A00629DD13BF00A317DA /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 				BE03E4F029CA86F900F1842C /* CustomTextField.swift */,
 				BE03E4F229CA94E800F1842C /* CustomSecureField.swift */,
 				BEC69FDE29CC945700A317DA /* ImagePicker.swift */,
+				BEC6A00629DD13BF00A317DA /* LazyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC6A00729DD13BF00A317DA /* LazyView.swift in Sources */,
 				BE03E4C329BCEE0400F1842C /* SearchView.swift in Sources */,
 				BE03E4EA29CA543800F1842C /* TextArea.swift in Sources */,
 				BE03E4EF29CA726500F1842C /* RegistrationView.swift in Sources */,
