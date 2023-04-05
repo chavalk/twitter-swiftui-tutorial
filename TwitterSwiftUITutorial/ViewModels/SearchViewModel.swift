@@ -15,8 +15,10 @@ enum SearchViewModelConfiguration {
 
 class SearchViewModel: ObservableObject {
     @Published var users = [User]()
+    private let config: SearchViewModelConfiguration
     
-    init() {
+    init(config: SearchViewModelConfiguration) {
+        self.config = config
         fetchUsers()
     }
     
