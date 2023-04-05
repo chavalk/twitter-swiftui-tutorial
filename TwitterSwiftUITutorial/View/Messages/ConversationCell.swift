@@ -9,6 +9,8 @@ import SwiftUI
 import Kingfisher
 
 struct ConversationCell: View {
+    let message: Message
+    
     var body: some View {
         VStack {
             HStack(spacing: 12) {
