@@ -21,12 +21,11 @@ struct ConversationsView: View {
             ScrollView {
                 VStack {
                     ForEach(viewModel.recentMessages) { message in
-                        ConversationCell()
-//                        NavigationLink {
-//                            ChatView()
-//                        } label: {
-//                            ConversationCell()
-//                        }
+                        NavigationLink {
+                            ChatView(user: message.user)
+                        } label: {
+                            ConversationCell()
+                        }
 
                     }
                 }
