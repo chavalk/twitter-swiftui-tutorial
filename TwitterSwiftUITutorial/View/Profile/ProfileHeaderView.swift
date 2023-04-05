@@ -9,7 +9,6 @@ import SwiftUI
 import Kingfisher
 
 struct ProfileHeaderView: View {
-    @Binding var isFollowed: Bool
     let viewModel: ProfileViewModel
     
     var body: some View {
@@ -57,7 +56,7 @@ struct ProfileHeaderView: View {
             }
             .padding()
             
-            ProfileActionButtonView(viewModel: viewModel, isFollowed: $isFollowed)
+            ProfileActionButtonView(viewModel: viewModel)
             
             Spacer()
         }
