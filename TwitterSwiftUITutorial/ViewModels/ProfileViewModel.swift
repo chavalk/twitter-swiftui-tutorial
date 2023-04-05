@@ -21,6 +21,15 @@ class ProfileViewModel: ObservableObject {
         fetchLikedTweets()
     }
     
+    func tweets(forFilter filter: TweetFilterOptions) -> [Tweet] {
+        switch filter {
+        case .tweets: return userTweets
+        case.likes: return likedTweets
+        }
+    }
+}
+
+extension ProfileViewModel {
     func follow() {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
         let followingRef = COLLECTION_FOLLOWING.document(currentUid).collection("user-following")
@@ -84,12 +93,5 @@ class ProfileViewModel: ObservableObject {
     
     func fetchUserStats() {
         
-    }
-    
-    func tweets(forFilter filter: TweetFilterOptions) -> [Tweet] {
-        switch filter {
-        case .tweets: return userTweets
-        case.likes: return likedTweets
-        }
     }
 }
