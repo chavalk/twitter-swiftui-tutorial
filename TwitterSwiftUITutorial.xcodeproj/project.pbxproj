@@ -53,6 +53,7 @@
 		BEC6A00329DC5B0400A317DA /* TweetActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */; };
 		BEC6A00529DC8FBA00A317DA /* TweetActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */; };
 		BEC6A00729DD13BF00A317DA /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00629DD13BF00A317DA /* LazyView.swift */; };
+		BEC6A00929DDEBE100A317DA /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00829DDEBE100A317DA /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionsView.swift; sourceTree = "<group>"; };
 		BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetActionViewModel.swift; sourceTree = "<group>"; };
 		BEC6A00629DD13BF00A317DA /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		BEC6A00829DDEBE100A317DA /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				BEC69FFA29DA73C500A317DA /* UploadTweetViewModel.swift */,
 				BEC69FFC29DB315E00A317DA /* FeedViewModel.swift */,
 				BEC6A00429DC8FBA00A317DA /* TweetActionViewModel.swift */,
+				BEC6A00829DDEBE100A317DA /* ChatViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				BE03E4DF29C544CA00F1842C /* ProfileHeaderView.swift in Sources */,
 				BEC6A00329DC5B0400A317DA /* TweetActionsView.swift in Sources */,
 				BE03E4D229C1220200F1842C /* ChatView.swift in Sources */,
+				BEC6A00929DDEBE100A317DA /* ChatViewModel.swift in Sources */,
 				BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */,
 				BE03E4ED29CA725400F1842C /* LoginView.swift in Sources */,
 				BE03E4E629CA3E6F00F1842C /* NewTweetView.swift in Sources */,
