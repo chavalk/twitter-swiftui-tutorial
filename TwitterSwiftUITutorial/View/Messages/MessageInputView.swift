@@ -17,12 +17,9 @@ struct MessageInputView: View {
                 .textFieldStyle(PlainTextFieldStyle())
                 .frame(minHeight: 30)
             
-            Button {
-                action
-            } label: {
+            Button(action: action) {
                 Text("Send")
             }
-
         }
     }
 }
