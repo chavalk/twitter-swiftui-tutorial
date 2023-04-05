@@ -39,7 +39,7 @@ extension ProfileViewModel {
         
         followingRef.document(user.id).setData([:]) { _ in
             followersRef.document(currentUid).setData([:]) { _ in
-                self.isFollowed = true
+                self.user.isFollowed = true
             }
         }
     }
@@ -51,7 +51,7 @@ extension ProfileViewModel {
         
         followingRef.document(user.id).delete { _ in
             followersRef.document(currentUid).delete { _ in
-                self.isFollowed = false
+                self.user.isFollowed = false
             }
         }
     }
@@ -62,7 +62,7 @@ extension ProfileViewModel {
         
         followingRef.document(user.id).getDocument { snapshot, _ in
             guard let isFollowed = snapshot?.exists else { return }
-            self.isFollowed = isFollowed
+            self.user.isFollowed = isFollowed
         }
     }
     
