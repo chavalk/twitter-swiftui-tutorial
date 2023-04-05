@@ -19,7 +19,7 @@ class SearchViewModel: ObservableObject {
     
     init(config: SearchViewModelConfiguration) {
         self.config = config
-        fetchUsers()
+        fetchUsers(forConfig: config)
     }
     
     func fetchUsers(forConfig config: SearchViewModelConfiguration) {
