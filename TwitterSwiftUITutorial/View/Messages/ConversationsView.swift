@@ -16,7 +16,7 @@ struct ConversationsView: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             if let user = user {
-                NavigationLink(destination: ChatView(), isActive: $showChat) {
+                NavigationLink(destination: ChatView(user: user), isActive: $showChat) {
 
                 }
             }
