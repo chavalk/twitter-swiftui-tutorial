@@ -9,7 +9,7 @@ import SwiftUI
 import Kingfisher
 
 struct ProfileHeaderView: View {
-    let viewModel: ProfileViewModel
+    @ObservedObject var viewModel: ProfileViewModel
     
     var body: some View {
         VStack {
