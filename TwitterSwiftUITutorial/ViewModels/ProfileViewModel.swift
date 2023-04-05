@@ -82,6 +82,10 @@ class ProfileViewModel: ObservableObject {
         }
     }
     
+    func fetchUserStats() {
+        
+    }
+    
     func tweets(forFilter filter: TweetFilterOptions) -> [Tweet] {
         switch filter {
         case .tweets: return userTweets
