@@ -5,7 +5,7 @@
 //  Created by Jose Garcia on 3/15/23.
 //
 
-import Foundation
+import Firebase
 
 struct MockMessage: Identifiable {
     let id: Int
