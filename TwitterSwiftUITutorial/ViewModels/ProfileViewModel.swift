@@ -19,6 +19,7 @@ class ProfileViewModel: ObservableObject {
         checkIfUserIsFollowed()
         fetchUserTweets()
         fetchLikedTweets()
+        fetchUserStats()
     }
     
     func tweets(forFilter filter: TweetFilterOptions) -> [Tweet] {
