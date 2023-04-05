@@ -37,8 +37,8 @@ struct NewMessageView: View {
     }
 }
 
-struct NewMessageView_Previews: PreviewProvider {
-    static var previews: some View {
-        NewMessageView(show: .constant(true), startChat: .constant(true))
-    }
-}
+//struct NewMessageView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NewMessageView(show: .constant(true), startChat: .constant(true))
+//    }
+//}
