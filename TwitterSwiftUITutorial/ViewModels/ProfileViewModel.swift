@@ -29,6 +29,8 @@ class ProfileViewModel: ObservableObject {
     }
 }
 
+// MARK: - API
+
 extension ProfileViewModel {
     func follow() {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
