@@ -8,5 +8,11 @@
 import SwiftUI
 
 struct ChatViewModel {
+    func fetchMessages() {
+        
+    }
     
+    func sendMessage() {
+        
+    }
 }
