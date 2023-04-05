@@ -19,6 +19,8 @@ struct MessageInputView: View {
             
             Button(action: action) {
                 Text("Send")
+                    .bold()
+                    .foregroundColor(.blue)
             }
         }
     }
