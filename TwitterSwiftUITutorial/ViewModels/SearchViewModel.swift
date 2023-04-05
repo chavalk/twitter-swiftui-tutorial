@@ -27,9 +27,9 @@ class SearchViewModel: ObservableObject {
             guard let documents = snapshot?.documents else { return }
             
             switch config {
-            case .newMessage
+            case .newMessage:
                 break
-            case .search
+            case .search:
                 self.users = documents.map({ User(dictionary: $0.data()) })
             }
         }
