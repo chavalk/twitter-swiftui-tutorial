@@ -20,7 +20,7 @@ struct ConversationsView: View {
             
             ScrollView {
                 VStack {
-                    ForEach(0..<9) { _ in
+                    ForEach(viewModel.recentMessages) { message in
                         ConversationCell()
 //                        NavigationLink {
 //                            ChatView()
