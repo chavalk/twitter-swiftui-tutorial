@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileActionButtonView: View {
-    let viewModel: ProfileViewModel
+    @ObservedObject var viewModel: ProfileViewModel
     
     var body: some View {
         if viewModel.user.isCurrentUser {
