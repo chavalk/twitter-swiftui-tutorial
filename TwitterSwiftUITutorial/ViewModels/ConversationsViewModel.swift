@@ -9,4 +9,12 @@ import SwiftUI
 
 class ConversationsViewModel: ObservableObject {
     @Published var recentMessages = [Message]()
+    
+    init() {
+        fetchRecentMessages()
+    }
+    
+    func fetchRecentMessages() {
+        
+    }
 }
