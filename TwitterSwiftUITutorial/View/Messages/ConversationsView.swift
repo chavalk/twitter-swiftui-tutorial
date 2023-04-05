@@ -10,6 +10,7 @@ import SwiftUI
 struct ConversationsView: View {
     @State var isShowingNewMessageView = false
     @State var showChat = false
+    @ObservedObject var viewModel = ConversationsViewModel()
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
