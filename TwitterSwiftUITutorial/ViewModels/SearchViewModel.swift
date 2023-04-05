@@ -8,6 +8,11 @@
 import SwiftUI
 import Firebase
 
+enum SearchViewModelConfiguration {
+    case search
+    case newMessage
+}
+
 class SearchViewModel: ObservableObject {
     @Published var users = [User]()
     
