@@ -25,12 +25,13 @@ class SearchViewModel: ObservableObject {
     func fetchUsers(forConfig config: SearchViewModelConfiguration) {
         COLLECTION_USERS.getDocuments { snapshot, _ in
             guard let documents = snapshot?.documents else { return }
+            let users = documents.map({ User(dictionary: $0.data()) })
             
             switch config {
             case .newMessage:
-                break
+                self.users = users.filter({ !$0.isCurrentUser })
             case .search:
-                self.users = documents.map({ User(dictionary: $0.data()) })
+                self.users = users
             }
         }
     }
