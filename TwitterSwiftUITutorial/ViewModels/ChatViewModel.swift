@@ -12,7 +12,7 @@ struct ChatViewModel {
         
     }
     
-    func sendMessage() {
+    func sendMessage(_ messageText: String) {
         
     }
 }
