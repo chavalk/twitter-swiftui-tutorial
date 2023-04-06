@@ -14,6 +14,7 @@ class ChatViewModel: ObservableObject {
     
     init(user: User) {
         self.user = user
+        fetchMessages()
     }
     
     func fetchMessages() {
