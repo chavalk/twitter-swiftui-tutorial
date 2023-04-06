@@ -17,6 +17,8 @@ struct ContentView: View {
             if viewModel.userSession != nil {
                 NavigationView {
                     
+                    MainTabView(selectedIndex: $selectedIndex)
+                    
                     TabView {
                         FeedView()
                             .tabItem {
