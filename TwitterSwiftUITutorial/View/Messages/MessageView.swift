@@ -42,8 +42,8 @@ struct MessageView: View {
     }
 }
 
-struct MessageView_Previews: PreviewProvider {
-    static var previews: some View {
-        MessageView(message: MOCK_MESSAGES[0])
-    }
-}
+//struct MessageView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MessageView(message: MOCK_MESSAGES[0])
+//    }
+//}
