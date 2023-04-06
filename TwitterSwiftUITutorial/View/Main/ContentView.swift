@@ -18,40 +18,20 @@ struct ContentView: View {
                 NavigationView {
                     
                     MainTabView(selectedIndex: $selectedIndex)
-                    
-                    TabView {
-                        FeedView()
-                            .tabItem {
-                                Image(systemName: "house")
-                                Text("Home")
+                        .navigationBarTitle(viewModel.tabTitle(forIndex: selectedIndex))
+                        .navigationBarTitleDisplayMode(.inline)
+                        .navigationBarItems(leading: Button(action: {
+                            viewModel.signOut()
+                        }, label: {
+                            if let user = viewModel.user {
+                                KFImage(URL(string: user.profileImageUrl))
+                                    .resizable()
+                                    .scaledToFill()
+                                    .clipped()
+                                    .frame(width: 32, height: 32)
+                                    .cornerRadius(16)
                             }
-                        
-                        SearchView()
-                            .tabItem {
-                                Image(systemName: "magnifyingglass")
-                                Text("Search")
-                            }
-                        
-                        ConversationsView()
-                            .tabItem {
-                                Image(systemName: "envelope")
-                                Text("Messages")
-                            }
-                    }
-                    .navigationBarTitle("Home")
-                    .navigationBarItems(leading: Button(action: {
-                        viewModel.signOut()
-                    }, label: {
-                        if let user = viewModel.user {
-                            KFImage(URL(string: user.profileImageUrl))
-                                .resizable()
-                                .scaledToFill()
-                                .clipped()
-                                .frame(width: 32, height: 32)
-                                .cornerRadius(16)
-                        }
-                    }))
-                    .navigationBarTitleDisplayMode(.inline)
+                        }))
                 }
             } else {
                 LoginView()
