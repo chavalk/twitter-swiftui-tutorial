@@ -55,6 +55,7 @@
 		BEC6A00729DD13BF00A317DA /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00629DD13BF00A317DA /* LazyView.swift */; };
 		BEC6A00929DDEBE100A317DA /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00829DDEBE100A317DA /* ChatViewModel.swift */; };
 		BEC6A00B29DE087600A317DA /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00A29DE087600A317DA /* ConversationsViewModel.swift */; };
+		BEC6A01029DE691100A317DA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6A00F29DE691100A317DA /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		BEC6A00629DD13BF00A317DA /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		BEC6A00829DDEBE100A317DA /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		BEC6A00A29DE087600A317DA /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		BEC6A00F29DE691100A317DA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
+				BEC6A00F29DE691100A317DA /* MainTabView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				BE03E4D229C1220200F1842C /* ChatView.swift in Sources */,
 				BEC6A00929DDEBE100A317DA /* ChatViewModel.swift in Sources */,
 				BE03E4CC29BD2C4C00F1842C /* ConversationsView.swift in Sources */,
+				BEC6A01029DE691100A317DA /* MainTabView.swift in Sources */,
 				BE03E4ED29CA725400F1842C /* LoginView.swift in Sources */,
 				BE03E4E629CA3E6F00F1842C /* NewTweetView.swift in Sources */,
 				BEC69FF929D5F5FE00A317DA /* ProfileViewModel.swift in Sources */,
