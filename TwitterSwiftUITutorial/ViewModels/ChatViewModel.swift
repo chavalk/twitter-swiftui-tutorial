@@ -10,6 +10,7 @@ import Firebase
 
 class ChatViewModel: ObservableObject {
     let user: User
+    @Published var messages = [Message]()
     
     init(user: User) {
         self.user = user
