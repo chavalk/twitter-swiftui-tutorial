@@ -177,12 +177,12 @@
 		BE03E4BC29BCC75600F1842C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BEC6A00D29DE621200A317DA /* Feed */,
 				BEC6A00C29DE5F3B00A317DA /* Main */,
 				BE03E4EB29CA723F00F1842C /* Authentication */,
 				BE03E4E429CA3E5100F1842C /* Tweets */,
 				BE03E4DB29C5097F00F1842C /* Profile */,
 				BE03E4CA29BD2C0000F1842C /* Messages */,
-				BE03E4BE29BCC91C00F1842C /* FeedView.swift */,
 				BE03E4C029BCD54100F1842C /* TweetCell.swift */,
 				BE03E4C229BCEE0400F1842C /* SearchView.swift */,
 				BE03E4C629BCFB4300F1842C /* SearchBar.swift */,
@@ -272,6 +272,14 @@
 				BE03E4AF29BC1A2500F1842C /* ContentView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BEC6A00D29DE621200A317DA /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BE03E4BE29BCC91C00F1842C /* FeedView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
