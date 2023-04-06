@@ -12,9 +12,9 @@ struct MessageView: View {
     
     var body: some View {
         HStack {
-            if message.isCurrentUser {
+            if message.isFromCurrentUser {
                 Spacer()
-                Text(message.messageText)
+                Text(message.text)
                     .padding()
                     .background(Color.blue)
                     .clipShape(ChatBubble(isFromCurrentUser: true))
