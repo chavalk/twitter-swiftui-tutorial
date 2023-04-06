@@ -8,7 +8,7 @@
 import SwiftUI
 import Firebase
 
-struct ChatViewModel {
+class ChatViewModel: ObservableObject {
     let user: User
     
     init(user: User) {
