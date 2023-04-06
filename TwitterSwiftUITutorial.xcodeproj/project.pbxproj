@@ -184,7 +184,6 @@
 				BE03E4E429CA3E5100F1842C /* Tweets */,
 				BE03E4DB29C5097F00F1842C /* Profile */,
 				BE03E4CA29BD2C0000F1842C /* Messages */,
-				BE03E4C029BCD54100F1842C /* TweetCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +226,7 @@
 		BE03E4E429CA3E5100F1842C /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E4C029BCD54100F1842C /* TweetCell.swift */,
 				BE03E4E529CA3E6F00F1842C /* NewTweetView.swift */,
 				BEC6A00029DBC55E00A317DA /* TweetDetailView.swift */,
 				BEC6A00229DC5B0400A317DA /* TweetActionsView.swift */,
