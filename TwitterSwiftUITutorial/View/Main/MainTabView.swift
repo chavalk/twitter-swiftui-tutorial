@@ -11,12 +11,39 @@ struct MainTabView: View {
     @Binding var selectedIndex: Int
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selectedIndex) {
+            FeedView()
+                .onTapGesture {
+                    selectedIndex = 0
+                }
+                .tabItem {
+                    Image(systemName: "house")
+                }
+                .tag(0)
+            
+            SearchView()
+                .onTapGesture {
+                    selectedIndex = 1
+                }
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                }
+                .tag(1)
+            
+            ConversationsView()
+                .onTapGesture {
+                    selectedIndex = 2
+                }
+                .tabItem {
+                    Image(systemName: "envelope")
+                }
+                .tag(2)
+        }
     }
 }
 
-struct MainTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTabView()
-    }
-}
+//struct MainTabView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MainTabView()
+//    }
+//}
