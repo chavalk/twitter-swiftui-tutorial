@@ -21,7 +21,7 @@ struct ChatView: View {
         VStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
-                    ForEach(MOCK_MESSAGES) { message in
+                    ForEach(viewModel.messages) { message in
                         MessageView(message: message)
                     }
                 }
