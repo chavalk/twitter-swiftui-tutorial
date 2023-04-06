@@ -35,4 +35,10 @@ struct Tweet: Identifiable {
         formatter.unitsStyle = .abbreviated
         return formatter.string(from: timestamp.dateValue(), to: Date()) ?? ""
     }
+    
+    var detailedTimestampString: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "h:mm a • MM/dd/yyyy"
+        return formatter.string(from: timestamp.dateValue())
+    }
 }
